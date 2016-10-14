@@ -1,0 +1,53 @@
+[
+	{
+        "title": "Mobile Satellite Communication System",
+        "content": [
+        	{
+        		"contentH":"",
+        		"contentP":"Mobile satellite communication system, as the first generation of self-developed and controllable mobile satellite communication system in China, is adopted of geostationary satellite and 109 land beams & 2 ocean beams of S band, covering land and peripheral ocean in China, the Indian Ocean and west Pacific Ocean."
+        	},
+        	{
+        		"contentH":"",
+        		"contentP":"Ground gateway station of mobile satellite communication system is employed with 3GPP-R6 structure, supporting on-line subscriber quantity at one million and maximum single-subscriber data rate at 384kbps."
+        	},
+        	{
+        		"contentH":"",
+        		"contentP":"The system supports voice, short-message, fax, video post back, data collection, network browse, trunk communication, etc., and has capability f connection and communication with PSTN, PLMN, Internet and other private network."
+        	}
+        ],
+        "img":[
+        		{
+        			"imgH":"Appearance of large-scale vehicle",
+        			"imgURL":"assets/app/images/pic9/9-2-1.png",
+        			"pageData":"B-10-01"
+        		},
+        		{
+        			"imgH":"Appearance of Large-scale Vehicular Station",
+        			"imgURL":"assets/app/images/pic9/9-2-2.png",
+        			"pageData":"B-10-02"
+        		},
+        		{
+        			"imgH":"Indoor Equipment",
+        			"imgURL":"assets/app/images/pic9/9-2-3.png",
+        			"pageData":"B-10-03"
+        		},
+        		{
+        			"imgH":"UAV-borne  SATCOM equipment",
+        			"imgURL":"assets/app/images/pic9/9-2-4.png",
+        			"pageData":"B-10-04"
+        		}
+        		
+        ],
+        "contentImg":[
+        		{
+        			"imgH":"Schematic Diagram of Mobile Satellite Communication System",
+        			"imgURL":"assets/app/images/pic9/9-21.png"
+        		},
+        		{
+        			"imgH":"Application Schematic Diagram of Mobile Satellite Communication System",
+        			"imgURL":"assets/app/images/pic9/9-22.png"
+        		}
+        	]
+
+    }
+]

@@ -1,0 +1,116 @@
+<!-- 主场景 -->
+<?xml version="1.0" encoding="utf-8"?>
+<BasicCanvas width="100%" height="100%" background="#dcdddd" fontSize="50" >
+		<HtmlCanvas width="1920" height="1080">
+			<style>
+						
+				.public{
+					margin-top:50px;
+					margin-left: 50px;
+					font-size:18px;
+				}
+				.main{
+					overflow-y: auto;
+			    	overflow-x: hidden;			   
+			    	height:900px;
+				}
+				#head{		
+					margin-top: 119px;
+					margin-left: 50px;
+					  
+				}
+				#head >#line
+				{
+					width: 1765px;
+				    height: 8px;
+				    background: black;
+				  
+				}
+				#nav >#title4
+				{
+					float:left;
+					padding: 2px 22px;
+				    height: 35px;
+				    background: black;
+				    color: white;
+				    max-width: 570px;
+				    font-size:18px;
+				}
+				#nav >#shape{
+					float:left;
+				    width: 0;
+				    height: 0;
+				    border-top: 38px solid black;
+				    border-right: 40px solid transparent;
+				}
+				#explain{
+					width:1600px;
+					max-height:300px;
+				}
+		
+				
+				#fea{
+					width:1600px;
+				}
+
+
+    			tr{
+    				height:40px;
+    			}
+				.annerBox{
+					margin-left:20px;
+				}
+				#form{
+				    margin-bottom:20px;
+    			}
+				
+				.closeBtn{
+    				position:absolute;
+    				left:1844px;
+    				top:100px;
+    				cursor: pointer;    				
+    			}
+    			
+    			.cont{width:6000px;margin-left:-2000px}
+    			.main_1{
+    				float:left;
+    				width:1800px;
+    				margin-left:200px;
+    			}
+    			.index_0{margin-left:0}
+    			.active{
+    				display:block;
+    			}
+    			.btn{
+    				position: absolute;
+    				bottom: 60px;
+    				left: 890px;
+    			}
+			</style>
+				
+			<div id="subPage4" class="page_2" >			
+				<img src="assets/app/images/main/close.png" class="closeBtn" id="0">
+				<div id="head">
+					<div id="line"></div>
+					<div id="nav" style="display:inline-block">
+						<div id="title4">CNR</div>
+						<div id="shape"></div>
+					</div>
+				</div>
+
+				<div class="cont">
+					
+				</div>
+				
+				<div class="btn">
+					<img src="assets/app/images/main/preBtn.png" class="preBtn1"></img>
+					<img style="margin-left:50px;" src="assets/app/images/main/nextBtn.png" class="nextBtn1"></img>	
+				</div>
+						
+				
+			</div>
+			
+			
+
+	</HtmlCanvas>
+</BasicCanvas>

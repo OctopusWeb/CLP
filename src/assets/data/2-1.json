@@ -1,0 +1,11 @@
+[
+	{
+		"page":"2",
+        "title": "Vehicular Satellite Communication On-the-pause Station",
+        "explain": "Vehicular satellite communication on-the-pause station is a vehicular satellite communication earth station, which is used for emergency communication，TV broadcasts/live broadcasts and on-site integrated communication and dispatch, etc.",
+        "cont":"",
+        "features":"<div id='feaCont'><h3 id='features'>Features</h3><div class='annerBox'><ul><li>Remote communication can be established by satellite after parking, service includes voice, data, and image;</li><li>Multiple-service, large capacity and high quality service can be realized after parking;Good mobility and fast deployment and commissioning (large-scale vehicle: ≤ 30min/2persons; medium and small-scale vehicle: ≤ 15min/2persons).</li></ul></div></div>",
+        "form":"<table border='1'  cellspacing='0 'style='width:800px'><tbody><tr ><td colspan='2'>Specifications</td></tr><tr><td>Operation band</td><td>Ku</td></tr><tr><td>Antenna aperture</td><td>1.2m-2.4m, optional</td></tr><tr><td>PA power</td><td>4W-100W, optional</td></tr><tr><td>Data rate</td><td>64kbps~8Mbps</td></tr></tbody></table><div style='position: absolute;right: 150px;bottom: 100px;'><img style='width:800px' src='assets/app/images/pic2/pic2_1.jpg'></div>"
+        
+    }
+]

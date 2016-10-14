@@ -1,0 +1,28 @@
+<!-- 分场景 -->
+<?xml version="1.0" encoding="utf-8"?>
+<BasicCanvas width="100%" height="100%" background="#000000">
+	<VideoCanvas id="myvideo_06" width="100%" height="100%" background="#000000" 
+		src="media/06.webm" preload="true" loop="true">
+	</VideoCanvas>
+
+	<ImageButton id="imageBt" x="844" y="633" url="images/pic6/01.png" preload="true" effect="alpha" touchMode="true">
+		<click>
+			<NavigationEvent controllerId="mainNav" showIdx="10" effect="flyOut">
+				<onComplete>
+					<Alert json="B-6-1"/>
+				</onComplete>
+			</NavigationEvent>
+		</click>
+	</ImageButton>
+
+	<ImageButton id="imageBt" x="636" y="274" url="images/pic6/02.png" preload="true" effect="alpha" touchMode="true">
+		<click>
+			<NavigationEvent controllerId="mainNav" showIdx="10" effect="flyOut">
+				<onComplete>
+					<Alert json="B-6-2"/>
+				</onComplete>
+			</NavigationEvent>
+		</click>
+	</ImageButton>
+
+</BasicCanvas>

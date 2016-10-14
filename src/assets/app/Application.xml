@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application>
+	<NavigationController id="mainNav" width="1920" height="1080">
+		<BasicComponent url="scenes/MainScene.xml"  width="100%" height="100%" />
+		<BasicComponent url="scenes/Scene01.xml"  width="100%" height="100%" />
+		<BasicComponent url="scenes/Scene02.xml"  width="100%" height="100%" />
+		<BasicComponent url="scenes/Scene03.xml"  width="100%" height="100%" />
+		<BasicComponent url="scenes/Scene04.xml"  width="100%" height="100%" />
+		<BasicComponent url="scenes/Scene05.xml"  width="100%" height="100%" />
+		<BasicComponent url="scenes/Scene06.xml"  width="100%" height="100%" />
+		<BasicComponent url="scenes/Scene07.xml"  width="100%" height="100%" />
+		<BasicComponent url="scenes/Scene08.xml"  width="100%" height="100%" />
+		
+		<BasicComponent url="scenes/Sub0.xml"  width="100%" height="100%" />
+		<BasicComponent url="scenes/Sub1.xml"  width="100%" height="100%" />
+		<BasicComponent url="scenes/Sub2.xml"  width="100%" height="100%" />
+		<BasicComponent url="scenes/Sub3.xml"  width="100%" height="100%" />
+	</NavigationController>
+	<ImageButton url="images/main/logo.png" preload="true" effect="alpha" x="50" y="40" touchMode="true">
+	</ImageButton>
+	<ImageButton id="imageBt" x="50" y="970" url="images/main/home.png" preload="true" effect="alpha" touchMode="true">
+		<Click>
+			<NavigationEvent controllerId="mainNav" showIdx="0" effect="flyIn" >
+				<onComplete>
+					<VideoEvent id="myvideo_00" action="play" />
+				</onComplete>
+			</NavigationEvent>
+		</Click>
+	</ImageButton>
+</Application>

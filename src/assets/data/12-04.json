@@ -1,0 +1,11 @@
+[
+	{
+		"page":"3",
+        "title": "UAV Telemetry & Telecontrol System",
+        "explain": "The UAV telemetry & telecontrol system is an important part of UAV system, which consists of data link and control station.The data receiving & sending, tracking and positioning between ground control station and UAV are performed by data link. The data link includes Airborne Data Terminal (ADT) and Ground Data Terminal (GDT), and divided into near range link, medium range link and long range link according to operating distance. In addition, the radio visibility conditions between ADT and GDT must be met, if not, the relay mode should be adopted, therefore, the data link also is divided into Line of Sight (LOS) data link, ground relay data link, air relay data link and satellite data link.The ground control station is used for mission planning, link control, flight control, payload control, fight path display, parameters display, record and distribution, etc.The GDT and ground control station always refer to as a ground telemetry & telecontrol station. The GDT and ground control station can be deployed together, and connected by cables or optical fiber when the GDT is deployed at a distance from the ground control station. Sometime, the GDT is installed in the ground control station.",
+        "cont":"",
+        "features":"",
+        "form":"<div class='img' style='position: absolute;right: 150px;bottom: 50px;'><img style='width:800px' src='assets/app/images/pic12/12-2-1.png'></div>"
+        
+    }
+]

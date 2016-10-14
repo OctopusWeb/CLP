@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BasicCanvas>
+	<HtmlCanvas x="0" y="0" height="1920" width="1080" background="#fff">
+		<script>
+		</script>
+		<div style="color:'#fff'">
+			111
+		</div>
+	</HtmlCanvas>
+</BasicCanvas>

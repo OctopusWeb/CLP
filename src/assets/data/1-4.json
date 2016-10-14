@@ -1,0 +1,11 @@
+[
+	{
+		"page":"1",
+        "title": "Integrated Access Point",
+        "explain": "The integrated access is a bridge between the fixed strategic communication and mobile tactical communication, as well as a key communication means between the tactical operation unit and strategic command unit. In order to accommodate mobile characteristics of the connected object, the integrated access point usually adopts wireless communication mode, including microwave broadband communication, troposcatter broadband communication, broadband SATCOM, etc., one end is fixed station which is connected with optical fiber network, the other end is mobile station which is connected with tactical communication node.",
+        "cont":"",
+        "features":"",
+        "form":"",
+        "imgUrl":""      
+          }
+]

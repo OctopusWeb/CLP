@@ -1,0 +1,135 @@
+<!-- 主场景 -->
+<?xml version="1.0" encoding="utf-8"?>
+<BasicCanvas width="100%" height="100%" background="#D1D1D1" fontSize="50">
+		<HtmlCanvas x="0" y="0">
+			<style>
+				*{margin:0;padding:0;font-family:"微软雅黑"}
+				#subPage1{width:1820px;float:left;}
+				#subPage1 #subBanner{height:330px;float:left;width:1720px;margin-top:40px;
+				margin-left:50px;position:relative;overflow:hidden;}
+				#subPage1 #subBanner .bannerBox{width:100%;float:left;height:330px;}
+				#subPage1 #subBanner ul{width:9999px;height:330px;position:absolute;background:#222;}
+				#subPage1 #subBanner ul li{width:420px;height:320px;float:left;list-style:none;margin-left:8px;background:#dddddd;overflow:hidden;}
+				#subPage1 #subBanner ul li h1{line-height:40px;font-size:18px;width:420px;padding-left:10px;
+				color:#454544;background:#222;white-space:nowrap; text-overflow:ellipsis; -o-text-overflow:ellipsis; overflow:hidden;}
+				#subPage1 #subBanner ul li img{width:420px;float:left;border-top:7px #eb9300 solid;}
+				#subPage1  .bannnerBtn{position:absolute;top:330px;}
+				#subPage1  .preBtn{left:50px}
+				#subPage1  .nextBtn{right:0px}
+				
+				#subPage1 #subContent{height:450px;float:left;width:94%;margin-top:20px;padding:0 3%}
+				#subPage1 #subContentLeft{height:450px;float:left;width:50%;float:left;overflow:auto;}
+				#subPage1 #subContentLeft h1{width:100%;float:left;font-size:18px;line-height:40px}
+				#subPage1 #subContentLeft h2{width:100%;float:left;font-size:18px;line-height:30px;margin-top:15px;font-weight:400}
+				#subPage1 #subContentLeft p{width:100%;float:left;font-size:18px;line-height:25px;margin-top:15px;font-weight:400;color:#454544}
+				#subPage1 #subContentRight{height:450px;float:left;width:50%;float:left;overflow:auto;}
+				#subPage1 #subContentRight img{width:650px;float:left;margin-left:100px}
+				#subPage1 #subContentRight h1{width:100%;float:left;text-align: center;font-size:18px;font-weight:400}
+					#nav >#title2
+				{
+					float:left;
+					padding: 2px 22px;
+				    height: 35px;
+				    background: black;
+				    color: white;
+				    max-width: 570px;
+				    font-size:18px;
+				}
+			</style>
+			<script>
+				$(function(){
+					var bannerMove = new BannerMove();
+					var bannerNum = 0;
+					$(".preBtn").click(function(){
+						bannerMove.pre()
+					})
+					$(".nextBtn").click(function(){
+						bannerMove.pre()
+					})
+					$("#subNav").click(function(){
+						alert(111)
+					})
+				
+					
+					function BannerMove(){
+						var self = this;
+						
+						self.pre = function(){
+							bannerNum++
+							bannerNum == $(".bannerBox ul li").length-3 ? bannerNum = 0: bannerNum = bannerNum;
+							var leftLen = -428*bannerNum + "px"
+							$(".bannerBox ul").animate({left:leftLen});
+						}
+						self.next = function(){
+							bannerNum--
+							bannerNum == 0 ? bannerNum = $(".bannerBox ul li").length-3: bannerNum = bannerNum;
+							var leftLen = -428*bannerNum + "px"
+							$(".bannerBox ul").animate({left:leftLen});
+						}
+						self.removeFirst = function(num){
+							$(".bannerBox ul").animate({left:0});
+						}
+
+					}
+					
+					
+				})
+			</script>
+	
+			<div id="subPage1">
+				<img src="assets/app/images/close.png" class="closeBtn" id="0">
+				<div id="head">
+					<div id="line"></div>
+					<div id="nav" style="display:inline-block">
+						<div id="title2"></div>
+						<div id="shape"></div>
+					</div>
+				</div>
+				<div id="subBanner">
+					<div class="bannerBox">
+						<ul>
+							<li>
+								<h1>SUMMARY OF SATCOM</h1>
+								<img src="assets/app/img/img1.png"></img>
+							</li>
+							<li>
+								<h1>SUMMARY OF SATCOM</h1>
+								<img src="assets/app/img/img1.png"></img>
+							</li>
+							<li>
+								<h1>SUMMARY OF SATCOM</h1>
+								<img src="assets/app/img/img1.png"></img>
+							</li>
+							<li>
+								<h1>SUMMARY OF SATCOM</h1>
+								<img src="assets/app/img/img1.png"></img>
+							</li>
+							<li>
+								<h1>SUMMARY OF SATCOM</h1>
+								<img src="assets/app/img/img1.png"></img>
+							</li>
+						</ul>
+					</div>
+					
+				</div>
+				<div id="subContent">
+					<div id="subContentLeft">
+						<h1>SUMMARY OF SATCOM</h1>
+						<p>Satellite communication has the wide communication coverage, long transmission distance, large capacity of communication, flexible networking, good quality and high reliability in communication, etc., therefore, satellite communication has been widely used in military and civilian field.</p>
+						<h2>SUMMARY OF SATCOM</h2>
+						<h1>SUMMARY OF SATCOM</h1>
+						<p>Satellite communication has the wide communication coverage, long transmission distance, large capacity of communication, flexible networking, good quality and high reliability in communication, etc., therefore, satellite communication has been widely used in military and civilian field.</p>
+						<h2>SUMMARY OF SATCOM</h2>
+						<h1>SUMMARY OF SATCOM</h1>
+						<p>Satellite communication has the wide communication coverage, long transmission distance, large capacity of communication, flexible networking, good quality and high reliability in communication, etc., therefore, satellite communication has been widely used in military and civilian field.</p>
+						<h2>SUMMARY OF SATCOM</h2>
+					</div>
+					<div id="subContentRight">
+						<img src="assets/app/img/img1.png"></img>
+						<h1>SUMMARY OF SATCOM</h1>
+					</div>
+				</div>
+			</div>
+
+		</HtmlCanvas>
+</BasicCanvas>

@@ -1,0 +1,47 @@
+[
+	{
+        "title": "UAV Telemetry & Telecontrol System",
+        "content": [
+        	{
+        		"contentH":"",
+        		"contentP":"The UAV telemetry & telecontrol system is an important part of UAV system, which consists of data link and control station."
+        	},
+        	{
+        		"contentH":"",
+        		"contentP":"The data receiving & sending, tracking and positioning between ground control station and UAV are performed by data link. The data link includes Airborne Data Terminal (ADT) and Ground Data Terminal (GDT), and divided into near range link, medium range link and long range link according to operating distance. In addition, the radio visibility conditions between ADT and GDT must be met, if not, the relay mode should be adopted, therefore, the data link also is divided into Line of Sight (LOS) data link, ground relay data link, air relay data link and satellite data link."
+        	},
+        	{
+        		"contentH":"",
+        		"contentP":"The ground control station is used for mission planning, link control, flight control, payload control, fight path display, parameters display, record and distribution, etc."
+        	},
+        	{
+        		"contentH":"",
+        		"contentP":"The GDT and ground control station always refer to as a ground telemetry & telecontrol station. The GDT and ground control station can be deployed together, and connected by cables or optical fiber when the GDT is deployed at a distance from the ground control station. Sometime, the GDT is installed in the ground control station."
+        	}
+        ],
+        "img":[
+        		{
+        			"imgH":"Man-pack Remote Video Terminal",
+        			"imgURL":"assets/app/images/pic9/9-4-1.png",
+        			"pageData":"B-12-01"
+        		},
+        		{
+        			"imgH":"Portable Remote Video Terminal",
+        			"imgURL":"assets/app/images/pic9/9-4-11.png",
+        			"pageData":"B-12-02"
+        		},
+        		{
+        			"imgH":"Vehicular Remote Video Terminal",
+        			"imgURL":"assets/app/images/pic12/12-3.png",
+        			"pageData":"B-12-03"
+        		}
+        ],
+        "contentImg":[
+        		{
+        			"imgH":"",
+        			"imgURL":"assets/app/images/pic9/9-41.png"
+        		}
+        	]
+
+    }
+]

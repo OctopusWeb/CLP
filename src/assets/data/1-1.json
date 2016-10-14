@@ -1,0 +1,12 @@
+[
+	{
+		"page":"1",
+        "title": "Strategic Defense Optical Fiber Network",
+        "explain": "Strategic defense optical fiber network is a national strategic core backbone network. The whole optical fiber network connects the main military bases and important cities to guarantee the real-time command and control, surveillance, early warning detection information transmit securely and reliably among the President, the Ministry of National Defense, the services and arms, the command centers, cities, the military bases, polices, military colleges.",
+        "cont":"The grid + loop network structure is primary mode for optical fiber network, which can be a separate construction or military and civilian common construction, the physical isolation is adopted between military optical fiber network and civilian optical fiber network to guarantee military information transmit securely. This optical fiber network has an ability of anti-disaster, self-healing and anti-damage and carries various services to need requirement of the armed forces informationization and modernization." ,
+        "features":"",
+        "form":"",
+        "imgUrl":"" 
+         
+    }
+]

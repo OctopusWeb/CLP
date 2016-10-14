@@ -1,0 +1,81 @@
+[
+	{
+        "title": "TROPOSCATTER COMMUNICATION",
+        "content": [
+        	{
+        		"contentH":"",
+        		"contentP":"The troposcatter communication is a BLOS (Beyond Line Of Sight) communication, which uses forward scattering of troposphere inhomogeneous body to radio wave to form pipe transmission. It is regard as a BLOS communication using passive transmit of troposphere."
+        	},
+        	{
+        		"contentH":"",
+        		"contentP":"The most of energy in troposcatter communication would be transmit to air space, only part per million energy can be used in communication. In order to provide capability of wideband and BLOS communication, the troposcatter communication system adopts large aperture antenna with high gain. The wave beam of large aperture antenna is narrow, therefore, the troposcatter communication can be regarded as a “needlepoint- needlepoint” communication."
+        	},
+        	{
+        		"contentH":"Main Features",
+        		"contentP":"Good performance on anti-Jamming, anti-interception capability: narrow beam, high-gain directional antennas, radio waves emitted parallel to the ground"
+        	},
+        	{
+        		"contentH":"Large communication capacity:",
+        		"contentP":"comparable to 'wireless fiber', support transmission of video, voice, data and multimedia services."
+        	},
+        	{
+        		"contentH":"Medium high robustness channel: ",
+        		"contentP":"channel can not be influenced by the natural environment of lightning, torrential rain and ionospheric disturbances, etc., there is no chain scission rain attenuation problems."
+        	},
+        	{
+        		"contentH":"Small transmission delay:",
+        		"contentP":"meet the transmission needs of delay-sensitive services."
+        	},
+        	{
+        		"contentH":"Superior maneuverability: ",
+        		"contentP":"the use of automotive form of communication stations, equipped with an antenna and servo system, rapid deployment, rapid opening of the link."
+        	},
+        	{
+        		"contentH":"",
+        		"contentP":"The troposcatter communication is considered to keep pace with the SATCOM and has become the popular military over-the-horizon (OTH) communication products, which can provide reliable broadband communication for strategic important areas and sensitive areas. In addition, the troposcatter communication also has widely used in the civilian field such as island-land communication, offshore oil platform-land communication, etc."
+        	}
+        ],
+        "img":[
+        		{
+        			"imgH":"TS534 Vehicular Troposcatter Communication Station",
+        			"imgURL":"assets/app/images/pic9/9-3-1.png",
+        			"pageData":"B-11-01"
+        		},
+        		{
+        			"imgH":"GS-510 Vehicular Troposcatter Communication System",
+        			"imgURL":"assets/app/images/pic9/9-3-2.png",
+        			"pageData":"B-11-02"
+        		},
+        		{
+        			"imgH":"TS802 Vehicular Troposcatter Communication/SATCOM Station",
+        			"imgURL":"assets/app/images/pic9/9-3-3.png",
+        			"pageData":"B-11-03"
+        		},
+        		{
+        			"imgH":"TS801Man-packed Troposcatter Communication Equipment",
+        			"imgURL":"assets/app/images/pic9/9-3-4.png",
+        			"pageData":"B-11-04"
+        		}
+        		
+        ],
+        "contentImg":[
+        		{
+        			"imgH":"Vehicular Troposcatter Communication System",
+        			"imgURL":"assets/app/images/pic9/9-31.png"
+        		},
+        		{
+        			"imgH":"Portable Troposcatter Communication Equipment",
+        			"imgURL":"assets/app/images/pic9/9-32.png"
+        		},
+        		{
+        			"imgH":"Communication between island and land",
+        			"imgURL":"assets/app/images/pic9/9-33.png"
+        		},
+        		{
+        			"imgH":"Communication between offshore oil platform and land",
+        			"imgURL":"assets/app/images/pic9/9-34.png"
+        		}
+        	]
+
+    }
+]

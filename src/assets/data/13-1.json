@@ -1,0 +1,40 @@
+[
+	{
+        "title": "Aerial Platform Communication",
+        "content": [
+        	{
+        		"contentH":"",
+        		"contentP":"Aerial platform communication refers to the communication equipment installed on the aerial platform, so as to realize a wide range of line-of-sight communication."
+        	},
+        	{
+        		"contentH":"",
+        		"contentP":"Aerial platform communication consists of two parts: 1) aerial platform and communication payload, 2) the ground communication station. There are many types of aerial platform, such as fixed wing aircraft, helicopter, unmanned fixed wing aircraft, unmanned helicopter, rotor aircraft, unmanned airship, captive balloon, etc. the many communication means, such as air-ground relay communication, air communication base station, air communication node, air communication networking, etc., can be realized according to different payload on aerial platform."
+        	},
+        	{
+        		"contentH":"",
+        		"contentP":"Because the aerial platform communication has characteristics of mobile, quick, broadband, large coverage, therefore, it is especially suitable for division/brigade/ battalion tactical node communication, backbone communication between the divisions, and individual communication below battalion."
+        	}
+        ],
+        "img":[
+        		{
+        			"imgH":"Near-space communication hover-in-the-air aircraft VS stratosphere mobile communication system",
+        			"imgURL":"assets/app/images/pic9/9-5-1.png",
+        			"pageData":"B-13-01"
+        		},
+           
+        		{
+        			"imgH":"Multi-rotor UAV air communication system",
+        			"imgURL":"assets/app/images/pic9/9-5-4.png",
+        			"pageData":"B-13-02"
+        		}
+        		
+        ],
+        "contentImg":[
+        		{
+        			"imgH":"",
+        			"imgURL":""
+        		}
+        	]
+
+    }
+]

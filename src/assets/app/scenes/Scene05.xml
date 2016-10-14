@@ -1,0 +1,49 @@
+<!-- 分场景 -->
+<?xml version="1.0" encoding="utf-8"?>
+<BasicCanvas width="100%" height="100%" background="#000000">
+	<VideoCanvas id="myvideo_05" width="100%" height="100%" background="#000000" 
+		src="media/05.webm" preload="true" loop="true">
+	</VideoCanvas>
+
+	<ImageButton id="imageBt" x="954" y="436" url="images/pic5/01.png" preload="true" effect="alpha">
+		<click>
+			<NavigationEvent controllerId="mainNav" showIdx="10" effect="flyOut">
+				<onComplete>
+					<Alert json="B-5-1"/>
+				</onComplete>
+			</NavigationEvent>
+		</click>
+	</ImageButton>
+
+
+	<ImageButton id="imageBt" x="802" y="649" url="images/pic5/02.png" preload="true" effect="alpha">
+		<click>
+			<NavigationEvent controllerId="mainNav" showIdx="10" effect="flyOut">
+				<onComplete>
+					<Alert json="B-5-2"/>
+				</onComplete>
+			</NavigationEvent>
+		</click>
+	</ImageButton>
+	<ImageButton id="imageBt" x="1477" y="717" url="images/pic5/03.png" preload="true" effect="alpha">
+		<click>
+			<NavigationEvent controllerId="mainNav" showIdx="10" effect="flyOut">
+				<onComplete>
+					<Alert json="B-5-3"/>
+				</onComplete>
+			</NavigationEvent>
+		</click>
+	</ImageButton>
+	<ImageButton id="imageBt" x="602" y="546" url="images/pic5/04.png" preload="true" effect="alpha">
+		<click>
+			<NavigationEvent controllerId="mainNav" showIdx="10" effect="flyOut">
+				<onComplete>
+					<Alert json="B-5-4"/>
+				</onComplete>
+			</NavigationEvent>
+		</click>
+		
+	</ImageButton>
+
+
+</BasicCanvas>

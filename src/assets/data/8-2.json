@@ -1,0 +1,11 @@
+[
+	{
+		"page":"8",
+        "title": "DTS-03 Tactical Data Link",
+        "explain": "DTS-03 tactical data link is a new generation tactical network communication system which is based on advanced communication network technology. This system is formed by communication equipment and support equipment. Army can organize war battle network used by AD HOC self-organized networking of this system. This system supports networked and systematic battle ability which can quickly connect the control unit and weapon unit of army, navy and air force to form closed loop: “spy, control, beat and evaluation”.",
+        "cont":"",
+        "features":"<div id='feaCont'><h3 id='features'>FEATHERS</h3><div class='annerBox'><ul><li>High data rate, Real-time, Expand-operation battlefield situation information;</li><li>Flexible networking、plug and play、Anti-destroy;</li><li>Excellent interconnection、IP-system、Dynamic Router;</li><ul></div></div>",
+        "form":"<div class='img' style='position: absolute;right: 180px;bottom: 150px;'><img style='width:800px' src='assets/app/images/pic8/pic8_2.jpg'></div>"
+        
+    }
+]

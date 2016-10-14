@@ -1,0 +1,11 @@
+[
+	{
+		"page":"3",
+        "title": "Vehicular Satellite Communication On-the-move Station",
+        "explain":"The vehicular satellite communication on-the-move station is a mobile satellite communication system, which is used for emergency command and communication support.",
+		"cont":"",
+        "features":"<div id='feaCont'><h3 id='features'>Features</h3><div class='annerBox'><ul><li>remote communication can be established by satellite, services including voice, data, and image;</li><li>Large capacity and high quality services transmission can be realized during travelling.</li></ul></div></div>",
+        "form":"<table border='1'  cellspacing='0 'style='width:800px'><tbody><tr ><td colspan='2'>Specifications</td></tr><tr><td>Maximum vehicle speed</td><td>100km/h（expressway）40km/h（third-level road）</td></tr><tr><td>Initial capturing satellite</td><td>≤3 minutes</td></tr><tr><td>Sheltering recapturing</td><td>≤3s</td></tr><tr><td>Operation band</td><td>Ku</td></tr><tr><td>Antenna aperture</td><td>0.6m、0.9m、1.2m</td></tr><tr><td>PA power</td><td>4W-100W, optional</td></tr><tr><td>Data rate</td><td>64kbps~2Mbps</td></tr></tbody></table><div id='bind' class='C-3-2-1' style='cursor: pointer;position: absolute;right: 0px;bottom: 350px;'><img style='width:1050px' src='assets/app/images/pic3/pic3_2.jpg'></div></div><img style='position: absolute;right: 564px;bottom: 250px;' src='assets/app/images/main/click.png' />"
+        
+    }
+]

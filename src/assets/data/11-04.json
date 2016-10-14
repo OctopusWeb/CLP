@@ -1,0 +1,11 @@
+[
+	{
+		"page":"3",
+        "title": "TS801Man-packed Troposcatter Communication Equipment",
+        "explain": "TS801 is a man-packed, single-antenna and BLOS wireless transmission equipment. As the most light-weighted troposcatter communication equipment providing multiple services (e.g. voice, image) to the user, TS801 is mainly used for BLOS communication between tactical combat forces, in case of fast deployment, and their superior command post.",
+        "cont":"",
+        "features":"",
+        "form":"<table border='1'  cellspacing='0 'style='width:800px'><tbody><tr ><td colspan='2'>Specifications</td></tr><tr><td>Operation frequency</td><td>4400MHz-5000MHz</td></tr><tr><td>Service</td><td> 2.4kb/s: 1 channel of voiceOther rate: 1channel of voice + 1channel of IP data</td></tr><tr><td>Antenna</td><td>parabolic antenna with 1m aperture (typical)</td></tr><tr><td>Communication distance (Pe≤1×10-4, Ns=310, smooth spherical surface，annual propagation reliability 95%)</td><td>70km@2.4kbps;50km@32kbp;35km@256kbps;20km@2Mbps.</td></tr></tbody></table><div id='bind' class='C-11-4-1' style='cursor: pointer;position: absolute;right: 0px;bottom: 200px;'><img style='width:1050px' src='assets/app/images/pic3/pic3_5.jpg'></div><img style='position: absolute;right: 564px;bottom: 80px;' src='assets/app/images/main/click.png' />"
+        
+    }
+]

@@ -1,0 +1,260 @@
+<!-- 主场景 -->
+<?xml version="1.0" encoding="utf-8"?>
+<BasicCanvas width="100%" height="100%" background="#D1D1D1" fontSize="50">
+		<HtmlCanvas x="0" y="0">
+			<style>
+				*{margin:0;padding:0;font-family:"微软雅黑"}
+				.page2{width:1820px;float:left;}
+				#subPage2 #subTitel{height:50px;background:#000;float:left;width:100%;margin-top:100px;color:#fff}
+				#mc{margin-left:300px;display:none}
+				.bannnerBtn{position:absolute;top:850px;}
+				.preBtn{left:950px}
+				.nextBtn{right:950px}
+				#nav >#title3
+				{
+					float:left;
+					padding: 2px 22px;
+				    height: 35px;
+				    background: black;
+				    color: white;
+				    max-width: 570px;
+				    font-size:18px;
+				}
+				
+				.loader {
+				    width: 150px;
+				    margin: 50px auto 70px;
+				    position: relative;
+				}
+				.loader .loading-1 {
+				    position: relative;
+				    width: 100%;
+				    height: 10px;
+				    border: 1px solid #fff;
+				    border-radius: 10px;
+				    animation: turn 4s linear 1.75s infinite;
+				    margin-top:500px;
+				}
+				.loader .loading-1:before {
+				    content: "";
+				    display: block;
+				    position: absolute;
+				    width: 0%;
+				    height: 100%;
+				    background: #fff;
+				    box-shadow: 10px 0px 15px 0px #fff;
+				    animation: load 2s linear infinite;
+				}
+				.loader .loading-2 {
+				    width: 100%;
+				    position: absolute;
+				    top: 10px;
+				    color: #fff;
+				    font-size: 22px;
+				    text-align: center;
+				    animation: bounce 2s  linear infinite;
+				}
+				@keyframes load {
+				    0% {
+				        width: 0%;
+				    }
+				    87.5%, 100% {
+				        width: 100%;
+				    }
+				}
+				@keyframes turn {
+				    0% {
+				        transform: rotateY(0deg);
+				    }
+				    6.25%, 50% {
+				        transform: rotateY(180deg);
+				    }
+				    56.25%, 100% {
+				        transform: rotateY(360deg);
+				    }
+				}
+				@keyframes bounce {
+				    0%,100% {
+				        top: 10px;
+				    }
+				    12.5% {
+				        top: 30px;
+				    }
+				}
+				
+				.bk{width:1920px;height:1080px;background:rgba(0,0,0,0);z-index:100;position:absolute;top:0;display:none}
+				.demo{height:1080px;width:1920px;background:rgba(0,0,0,0.2);position:fixed;display:block}
+				.loader{left:-40px}
+			</style>
+			<script src="assets/system/com/blank/zml/core/CanvasClip.js"></script>
+			<script src="assets/system/com/blank/zml/core/navigationManagers/AssetsManager1.js"></script>
+			<script>
+				function addImg(len,pageName,movePages){
+					ZML.AssetsManager1.clear();
+					for(var i=0;i<len;i++)
+					{
+						var num = len-i;
+						if(num >= 0 && num<10){
+							var name = "0000"+num
+						}else if(num>=100){
+							var name = "00"+num
+						}else{
+							var name = "000"+num
+						}
+						ZML.AssetsManager1.appendImage(pageName+name+".png", "bai"+i);
+					}
+					ZML.AssetsManager1.start(function(){
+				    	var vew360 = new View360(len,movePages);
+				    });
+				}
+				
+				
+			    
+			    
+				function View360(len,movePages) {
+					var rotatingStart = 0;
+					var rotatingLength = 90;
+		            var view360 = $("#view360");
+		            var imageSources = [];
+		            var canvasClip;
+		            initSources();
+		            initClip();
+		
+		            function initSources() {
+			            var source0 = [];
+			            
+						for(var i=0;i<len;i++)
+						{
+							source0.push(ZML.AssetsManager1.getImageByName("bai"+i));
+							if(i==len-1){$(".demo").hide();$("#mc").show()}
+						}
+			            imageSources.push(source0);
+		            }
+		
+		            function initClip() {
+		                var mc = view360.find("#mc");
+		                canvasClip = new ZML.CanvasClip(mc.get(0), imageSources[0]);
+		                addControlForClip();
+		            }
+		
+		            function addControlForClip() {
+		            	
+		                var tf = 0;
+		                var cf = 0;
+		                var bol="A";
+		                var frameTime;
+		                enterFrame();
+		                function enterFrame() {
+		                	if(bol == "A"){
+			                	cf += (tf - cf) * 0.01;
+			                    var frame = Math.floor(cf % 360 / 360 * 90);
+			                    if (frame < 0)frame += 90;
+			                    frame1 = frame+rotatingStart;
+			                    frameTime = frame1;
+			                    canvasClip.gotoAndStop(frame1);
+		                	}else if(bol == "B"){
+		                		frameTime+=2;
+		                		if(frameTime >= movePages+90){
+		                			$(".bk").hide()
+		                			bol = "A";
+		                			rotatingStart = movePages+90;
+		                			frameTime = movePages+90
+		                		}
+		                		canvasClip.gotoAndStop(frameTime)
+		                	}else if(bol == "C"){
+		                		frameTime-=2;
+		                		if(frameTime <= 90){
+		                			$(".bk").hide()
+		                			bol = "A";
+		                			rotatingStart = 0;
+		                			frameTime = 0
+		                		}
+		                		canvasClip.gotoAndStop(frameTime)
+		                	}
+		                	setTimeout(function () {
+				                if(remove){
+				                	$(".demo").show();
+				                	$("#mc").hide();
+				            		return
+				            	}else{
+				            		 window.requestAnimationFrame(enterFrame);
+				            	} 
+		                    }, 1000 / 60);
+		                }
+		
+		                $(view360.find("#mc")).bind("touchstart", function (e) {
+		                    e.preventDefault();
+		                    $(document).bind("touchmove", moveHandler);
+		                    $(document).bind("touchend", endHandler);
+		                    var ax;
+		
+		                    function moveHandler(e) {
+		                        var touch = e.originalEvent.touches[0];
+		                        var tx = touch.clientX;
+		                        if (ax == undefined) {
+		                            ax = tx;
+		                        }
+		                        else {
+		                            var dis = tx - ax;
+		                            ax = tx;
+		                            tf += dis * 5;
+		                        }
+		                    }
+		
+		                    function endHandler(e) {
+		                        tf = cf;
+		                        $(document).unbind("touchmove", moveHandler);
+		                        $(document).unbind("touchend", endHandler);
+		                    }
+		                });
+		                var interval;
+		                $(".nextBtn").on("click", function (e) {
+		                	$(".bk").show();
+                    		cf = 0;
+                    		tf = 0;
+                    		bol = "B";
+		                });
+		                $(".preBtn").on("click", function (e) {
+		               	 	$(".bk").show();
+                    		cf = 0;
+                    		tf = 0;
+                    		bol = "C";
+		                });
+		            }
+		        }
+			</script>
+			<div id="subPage2" class="page2">
+				<div class="demo" >
+			        <div class="container">
+			            <div class="row">
+			                <div class="col-md-12">
+			                    <div class="loader">
+			                        <div class="loading-1"></div>
+			                        <div class="loading-2">Loading...</div>
+			                    </div>
+			                </div>
+			            </div>
+			        </div>
+			   </div>
+				
+				<img src="assets/app/images/main/close.png" class="closeBtn" id="0">
+				<div id="head">
+					<div id="line"></div>
+					<div id="nav" style="display:inline-block">
+						<div id="title3"></div>
+						<div id="shape"></div>
+					</div>
+				</div>
+				<img src="assets/app/images/main/nextBtn2.png" class="bannnerBtn preBtn" style='display:none'></img>
+				<img src="assets/app/images/main/preBtn2.png" class="bannnerBtn nextBtn" style='display:none'></img>
+				<div id="view360">
+			        <div id="container">
+			            <div class="center">
+			                <canvas id="mc" width="1200" height="680"></canvas>
+			            </div>
+			        </div>
+			    </div>
+				<div class = "bk"></div>
+			</div>
+		</HtmlCanvas>
+</BasicCanvas>

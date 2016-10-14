@@ -1,0 +1,11 @@
+[
+	{
+		"page":"3",
+        "title": "SATCOM Functional Handset",
+        "explain": "SATCOM functional handset supports satellite communication and ground mobile communication (2G), which is configured with keyboard and adopts high capacity battery and three-proof design to satisfy the operation in atrocious environment.",
+        "cont":"",
+        "features":"",
+        "form":"<table border='1'  cellspacing='0 'style='width:800px'><tbody><tr ><td colspan='2'>Main Specifications</td></tr><tr><td>Operation network</td><td>satellite mobile communication</td></tr><tr><td>Service</td><td>Voice（1.2kbps/2.4kbps/4kbps）, data（1.2kbps~9.6kbps） and short message</td></tr><tr><td>Navigation positioning</td><td>Beidou/GPS</td></tr><tr><td>Operational temperature</td><td>-40℃~55℃</td></tr><tr><td>Communication-on-the-move” antenna</td><td>supporting automatic alignment to satellite and automatic tracking</td></tr></tbody></table><div id='bind' class='C-10-1-1' style='position: absolute;right: 50px;bottom: 150px;'><img style='width:1050px' src='assets/app/images/pic10/10-1-1.png'><img style='position: absolute;right: 500px;bottom: 80px;' src='assets/app/images/main/click.png'></div>"
+        
+    }
+]

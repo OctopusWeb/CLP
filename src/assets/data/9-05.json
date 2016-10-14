@@ -1,0 +1,11 @@
+[
+	{
+		"page":"3",
+        "title": "Ship-borne Satellite Communication Station",
+        "explain":"The Ship-borne Satellite Communication Station is a kind of SATCOM ground station that is installed on ships or other types of sea vessels. It is designed for On-the-move (OTM) communication between the coast and ships as well as communication between different ships.",
+        "cont":"",
+        "features":"<div id='function'><h3 id='funtion'>Function</h3><div class='annerBox'><ul><li>Services of voice, data and image can be transmitted on-the-move</li></ul></div></div><div id='feaCont'><h3 id='features'>System Feature</h3><div class='annerBox'><ul><li>On-the-move transmission of BLOS,multiple-service, large capacity and highquality service</li><li>Depending on the ship size, multiple antenna apertures are optional</li></ul></div></div>",
+        "form":"<table border='1'  cellspacing='0 'style='width:800px'><tbody><tr ><td colspan='2'>Specifications</td></tr><tr><td>Operation band</td><td>C / Ku / Ka</td></tr><tr><td>Antenna aperture</td><td>1.2m-2.4m, optional</td></tr><tr><td>PA power</td><td>1W ~ 1kW, optional</td></tr><tr><td>Data rate</td><td>64kbps~8Mbps</td></tr></tbody></table><div class='img' style='position: absolute;right: 150px;bottom: 50px;'><img style='width:800px' src='assets/app/images/pic9/9-1-5.png'></div>"
+            
+    }
+]

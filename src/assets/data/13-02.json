@@ -1,0 +1,11 @@
+[
+	{
+		"page":"3",
+        "title": "Multi-rotor UAV air communication system",
+        "explain": "Multi-rotor UAV air communication system is focus on different requirement, carrying the equipment in the air, in order to improve the ability of investigation and communication security under complex terrain environment in anti-terrorism and peacekeeping.</br>Investigation stage: carrying HD video collection system to investigate in the air, sending the HD video to the command post to realize private and safe investigation.</br>Searching stage: carrying TD-LTE air base station, quickly setting up area or local broadband communication system, providing security communication methods of voice, data and video, realizing multi-media broadband data communication and emergency command dispatch, and solving the problem of limited coverage of security communication equipment under complex terrain environment or backcountry district, and easy to be intercepted by using commercial communication.</br>System character: convenient to carry, Unfold quickly, operation easily, covert investigation, wide area broadband communication cover, and keep information safety.",
+        "cont":"",
+        "features":"<h3>Mainly function Communication:</h3><ul><li>Communication cover radius: 20KM</li><li>Message transmission rate: 5Mbps</li><li>Non-stop operation time: 8H</li></ul><h3>Mainly function in Investigation:</h3><ul><li>Identifiableheight of human: 100M</li><li>Identifiableheight of vehicle: 200M</li><li>Max cruise flight speed:100 KM/H</li><li>Investigationradius: 5KM</li><li>Moving investigateflight time: 45MIN</li><li>Fixed monitor flight time: 8H</li></ul>",
+        "form":"<div class='img' style='margin-left:160px'><img style='width:800px' src='assets/app/images/pic13/13-2-1.png'></div>"
+        
+    }
+]

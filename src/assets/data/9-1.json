@@ -1,0 +1,75 @@
+[
+	{
+        "title": "Satellite Communication System",
+        "content": [
+        	{
+        		"contentH":"",
+        		"contentP":"Satellite communication has the wide communication coverage, long transmission distance, large capacity of communication, flexible networking, good quality and high reliability in communication, etc., therefore, satellite communication has been widely used in military and civilian field."
+        	},
+        	{
+        		"contentH":"Military Field:",
+        		"contentP":"Satellite communications can provide the high-capacity network communication among the military headquarters, command posts of the armed services and theater, and meet the communication requirements for ships, planes and vehicles, etc. It is a new and necessary communication means for operational command, transferring information and logistical support in the future war, and provides the long distance communication support for emergency forces, coastal defense forces, fleet, airborne forces and reconnaissance unit, etc."
+        	},
+        	{
+        		"contentH":"Civilian Field: ",
+        		"contentP":"Satellite communication is mainly used for emergency communication, remote education, remote medical treatment, broadcast & TV, data acquisition & monitoring, etc."
+        	},
+        	{
+        		"contentH":"Service: ",
+        		"contentP":"voice, data and video, etc."
+        	}
+        ],
+        "img":[
+        		{
+        			"imgH":"Appearance of large-scale vehicle",
+        			"imgURL":"assets/app/images/pic9/9-1-1.png",
+        			"pageData":"B-9-01"
+        		},
+        		{
+        			"imgH":"Appearance of Large-scale Vehicular Station",
+        			"imgURL":"assets/app/images/pic9/9-1-2.png",
+        			"pageData":"B-9-02"
+        		},
+        		{
+        			"imgH":"Indoor Equipment",
+        			"imgURL":"assets/app/images/pic9/9-1-3.png",
+        			"pageData":"B-9-03"
+        		},
+        		{
+        			"imgH":"UAV-borne  SATCOM equipment",
+        			"imgURL":"assets/app/images/pic9/9-1-4-2.png",
+        			"pageData":"B-9-04"
+        		},
+        		{
+        			"imgH":"Ship-borne Satellite Communication Station",
+        			"imgURL":"assets/app/images/pic9/9-1-5.png",
+        			"pageData":"B-9-05"
+        		},
+        		{
+        			"imgH":"Portable SATCOM Equipment",
+        			"imgURL":"assets/app/images/pic9/9-1-6.png",
+        			"pageData":"B-9-06"
+        		}
+        		
+        ],
+        "contentImg":[
+        		{
+        			"imgH":"Schematic Diagram of Satellite Communication System",
+        			"imgURL":"assets/app/images/pic9/9-11.png"
+        		},
+        		{
+        			"imgH":"Schematic Diagram of Satellite Emergency Communication System",
+        			"imgURL":"assets/app/images/pic9/9-12.png"
+        		},
+        		{
+        			"imgH":"Schematic Diagram of Remote Education",
+        			"imgURL":"assets/app/images/pic9/9-13.png"
+        		},
+        		{
+        			"imgH":"Schematic Diagram of Remote Medical Treatment",
+        			"imgURL":"assets/app/images/pic9/9-14.png"
+        		}
+        	]
+
+    }
+]

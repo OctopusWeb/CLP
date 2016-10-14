@@ -1,0 +1,22 @@
+*{font-family: "微软雅黑";}
+.allPage{background: #181d23;}
+.pageLabel{color: #fff;font-weight: 500;font-size: 30px;}
+
+.table h1{color:#1888d0;font-size:24px;float:left;}
+.table h2{color:#fff;float:left;font-size:18px;}
+.table h2 strong{color:#1888d0;font-size:20px;}
+.selected{background:#2d3237;}
+
+.bar_show ul {color: #fff;}
+.pro_bar{background:#356eb6}
+
+.tableUl{border:1px #34405c solid;}
+.tableUl .table_title h2{color:#fff;}
+.tableUl li{border-bottom:1px solid #34405c;background:#2b3035}
+.tableUl li h1{color:#356eb6;border-right:1px #34405c solid;font-weight:600;background:#181d23;font-size: 20px;}
+.tableUl li h2,.tableUl li h3{color:#a5a5a5;font-size:18px;border-right:1px #34405c solid}
+
+.tables{border: 1px #9fa0a0 solid;}
+.tables h1,.tables h2,.tables h3,.tables h4{color: #9fa0a0;font-size: 20px;}
+.tablesTitle h1,.tablesTitle h2,.tablesTitle h3,.tablesTitle h4{color: #356eb6;font-weight: 600;}
+
