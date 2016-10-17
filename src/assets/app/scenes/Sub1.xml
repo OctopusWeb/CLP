@@ -21,7 +21,7 @@
 				}
 				#head >#line
 				{
-					width: 1765px;
+					width: 1750px;
 				    height: 8px;
 				    background: black;
 				  
@@ -78,15 +78,22 @@
 				
 				.closeBtn{
     				position:absolute;
-    				left:1844px;
-    				top:100px;
+    				left: 1800px;
+    				top: 960px;
     				cursor: pointer;    				
     			}
 			</style>
 				
 			<div id="subPage2" class="page_2" >			
-				<img src="assets/app/images/main/close.png" class="closeBtn" id="0">
+				
 				<div id="head">
+					<img src="assets/app/images/main/close.png" class="closeBtn" id="0" />
+					
+					<audio controls="controls" style="display:none" id="mp3">
+
+					  <source src="assets/app/media/type.mp3" type="audio/mpeg">
+					
+					</audio>
 					<div id="line"></div>
 					<div id="nav" style="display:inline-block">
 						<div id="title1"></div>
@@ -112,8 +119,8 @@
 				</div>
 			
 			</div>
-			
-			
+		
 
 	</HtmlCanvas>
+
 </BasicCanvas>

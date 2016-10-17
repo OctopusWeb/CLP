@@ -12,7 +12,7 @@
 				#subPage1 #subBanner ul li{width:420px;height:320px;float:left;list-style:none;margin-left:8px;background:#dddddd;overflow:hidden;}
 				#subPage1 #subBanner ul li h1{line-height:40px;font-size:18px;width:420px;padding-left:10px;
 				color:#454544;background:#222;white-space:nowrap; text-overflow:ellipsis; -o-text-overflow:ellipsis; overflow:hidden;}
-				#subPage1 #subBanner ul li img{width:420px;float:left;border-top:7px #eb9300 solid;}
+				#subPage1 #subBanner ul li img{width:420px;height:271px;float:left;border-top:7px #eb9300 solid;}
 				#subPage1  .bannnerBtn{position:absolute;top:330px;}
 				#subPage1  .preBtn{left:50px}
 				#subPage1  .nextBtn{right:0px}
@@ -77,7 +77,7 @@
 			</script>
 	
 			<div id="subPage1">
-				<img src="assets/app/images/close.png" class="closeBtn" id="0">
+				<img src="assets/app/images/main/close.png" class="closeBtn" id="0">
 				<div id="head">
 					<div id="line"></div>
 					<div id="nav" style="display:inline-block">

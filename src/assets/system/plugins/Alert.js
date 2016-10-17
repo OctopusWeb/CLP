@@ -37,6 +37,9 @@ Alert.init = function()
 				$("#subPage2 .closeBtn").attr('id',parentPage);
 				$("#subPage3 .closeBtn").attr('id',parentPage);
 				$(".closeBtn").on("click",function(){
+					var str = "<events><Events src=\"playClickSound\" /></events>";				
+					ZML.BroadcastCenter.sendEvent(str);
+					
 					var page = $(this).attr("id");
 					parseInt(page)>=9?page=0:page=page
 					backEvent(page);
@@ -202,7 +205,6 @@ Alert.init = function()
 		var eventBack = "<events><NavigationEvent controllerId='mainNav' showIdx='"+page+"' effect='flyIn'><onComplete><VideoEvent id='myvideo_0"+page+"' action='play' /></onComplete></events>"
 		ZML.BroadcastCenter.sendEvent(eventBack);	
 	}
-	
 	
 	
 	ZML.FactoryMap["ALERT"] = Alert;

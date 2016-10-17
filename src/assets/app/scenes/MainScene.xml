@@ -2,19 +2,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <BasicCanvas>
 	<VideoCanvas id="myvideo_00" width="1920" height="1080" background="#fff"  x="0"
-		src="media/00.webm" preload="true" loop="true" autoplay="true">
+		src="media/00.webm" loop="true" autoplay="true">
 	</VideoCanvas>
-<!--	<ImageCanvas width="1920" height="1020" url="images/main/bg.jpg" preload="true"/>-->
+	
 	<ImageButton url="images/main/main1.png" preload="true" effect="alpha" touchMode="true" x="68" y="368" >
 		<Click>
+			<Events src="playClickSound" />
 			<NavigationEvent controllerId="mainNav" showIdx="7" effect="flyOut" >
 				<onComplete>
 					<VideoEvent id="myvideo_07" action="play" />
 				</onComplete>
 			</NavigationEvent>
-		
 		</Click>
 	</ImageButton>
+
 	<ImageButton url="images/main/main2.png" preload="true" effect="alpha" touchMode="true" x="363" y="677" >
 		<Click>
 			<NavigationEvent controllerId="mainNav" showIdx="4" effect="flyOut" >
@@ -36,7 +37,7 @@
 		<Click>
 			<NavigationEvent controllerId="mainNav" showIdx="8" effect="flyOut" >
 				<onComplete>
-					<VideoEvent id="myvideo_08" action="play" />
+					<VideoEvent id="myvideo_08" action="play" />		
 				</onComplete>
 			</NavigationEvent>
 		</Click>
@@ -45,7 +46,7 @@
 		<Click>
 			<NavigationEvent controllerId="mainNav" showIdx="3" effect="flyOut" >
 				<onComplete>
-					<VideoEvent id="myvideo_03" action="play" />
+					<VideoEvent id="myvideo_03" action="play" />		
 				</onComplete>
 			</NavigationEvent>
 		</Click>
@@ -54,7 +55,7 @@
 		<Click>
 			<NavigationEvent controllerId="mainNav" showIdx="5" effect="flyOut" >
 				<onComplete>
-					<VideoEvent id="myvideo_05" action="play" />
+					<VideoEvent id="myvideo_05" action="play" />	
 				</onComplete>
 			</NavigationEvent>
 		</Click>
@@ -63,7 +64,7 @@
 		<Click>
 			<NavigationEvent controllerId="mainNav" showIdx="6" effect="flyOut" >
 				<onComplete>
-					<VideoEvent id="myvideo_06" action="play" />
+					<VideoEvent id="myvideo_06" action="play" />		
 				</onComplete>
 			</NavigationEvent>
 		</Click>
@@ -77,7 +78,7 @@
 			</NavigationEvent>
 		</Click>
 	</ImageButton>
-	
+
 	<ImageButton url="images/main/sub1.png" preload="true" effect="alpha" touchMode="true" x="1510" y="40" id="subNav">
 		
 	</ImageButton>
@@ -94,7 +95,7 @@
 		<Click>
 			<NavigationEvent controllerId="mainNav" showIdx="9" effect="flyOut">
 				<onComplete>
-					<Alert json="A-10-1"/>
+					<Alert json="A-10-1"/>		
 				</onComplete>
 			</NavigationEvent>
 		</Click>
@@ -103,7 +104,7 @@
 		<Click>
 			<NavigationEvent controllerId="mainNav" showIdx="9" effect="flyOut">
 				<onComplete>
-					<Alert json="A-11-1"/>
+					<Alert json="A-11-1"/>		
 				</onComplete>
 			</NavigationEvent>
 		</Click>
@@ -112,7 +113,7 @@
 		<Click>
 			<NavigationEvent controllerId="mainNav" showIdx="9" effect="flyOut">
 				<onComplete>
-					<Alert json="A-12-1"/>
+					<Alert json="A-12-1"/>	
 				</onComplete>
 			</NavigationEvent>
 		</Click>
@@ -121,9 +122,10 @@
 		<Click>
 			<NavigationEvent controllerId="mainNav" showIdx="9" effect="flyOut">
 				<onComplete>
-					<Alert json="A-13-1"/>
+					<Alert json="A-13-1"/>		
 				</onComplete>
 			</NavigationEvent>
 		</Click>
 	</ImageButton>
+
 </BasicCanvas>

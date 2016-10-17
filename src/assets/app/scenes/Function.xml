@@ -1,0 +1,18 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<BasicCanvas>
+	<ImageButton url="images/main/logo.png" preload="true" effect="alpha" x="50" y="40" touchMode="true">
+	</ImageButton>
+	<ImageButton id="imageBt" x="50" y="970" url="images/main/home.png" preload="true" effect="alpha" touchMode="true">
+		<Click>
+			<NavigationEvent controllerId="mainNav" showIdx="0" effect="flyIn" >
+				<onComplete>
+					<VideoEvent id="myvideo_00" action="play" />
+					<!--<VideoEvent id="myMp3_01" action="play" />-->
+				</onComplete>
+			</NavigationEvent>
+		</Click>
+	</ImageButton>
+	<VideoCanvas id="myMp3_01" src="media/type.mp3" autoplay="false" preload="true"></VideoCanvas>
+
+</BasicCanvas>

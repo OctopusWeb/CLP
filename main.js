@@ -11,6 +11,8 @@ const {Menu} = require('electron')
 let mainWindow
 
 function createWindow () {
+	
+
   //不使用默认菜单
 	Menu.setApplicationMenu(null)
   // Create the browser window.
