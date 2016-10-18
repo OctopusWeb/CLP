@@ -153,6 +153,7 @@
 			                    frameTime = frame1;
 			                    canvasClip.gotoAndStop(frame1);
 		                	}else if(bol == "B"){
+		                		if(frameTime==0) frameTime =90;
 		                		frameTime+=2;
 		                		if(frameTime >= movePages+90){
 		                			$(".bk").hide()
@@ -160,6 +161,7 @@
 		                			rotatingStart = movePages+90;
 		                			frameTime = movePages+90
 		                		}
+		                		
 		                		canvasClip.gotoAndStop(frameTime)
 		                	}else if(bol == "C"){
 		                		frameTime-=2;
