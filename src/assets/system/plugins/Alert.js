@@ -30,7 +30,6 @@ Alert.init = function()
 			{
 				var data = $(data).attr("json");
 				var datatype = data.substring(0,1);
-				console.log(data)
 				var parentPage = data.substring(2,data.length)
 				parentPage = parentPage.substring(0,parentPage.indexOf("-"));
 				$("#subPage1 .closeBtn").attr('id',parentPage);
@@ -103,7 +102,6 @@ Alert.init = function()
 	
 	
 	function subPage2(json){
-		console.log(json)
 		var page =json[0].page;
 		$("title1,#explain,#cont,#fea, #form").html("");
 		$("#title1").html(json[0].title);
@@ -196,7 +194,6 @@ Alert.init = function()
 			index==3 ? index = 0:index = index;
 			$(".cont").animate({"margin-left":-2000*index})
 		})
-
 	}
 	
 	function bindEvent(page,data){
@@ -209,12 +206,10 @@ Alert.init = function()
 		$(".closeBtn").off("click");
 		$(".nextBtn1").off("click");
 		$(".preBtn1").off("click");
-		console.log("1111")
 		var eventBack = "<events><NavigationEvent controllerId='mainNav' showIdx='"+page+"' effect='flyIn'><onComplete><VideoEvent id='myvideo_0"+page+"' action='play' /></onComplete></events>"
 		ZML.BroadcastCenter.sendEvent(eventBack);	
 	}
-	
-	
+
 	ZML.FactoryMap["ALERT"] = Alert;
 	Alert.init();
 	return Alert;
