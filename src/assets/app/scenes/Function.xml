@@ -1,18 +1,34 @@
-
 <?xml version="1.0" encoding="utf-8"?>
 <BasicCanvas>
-	<ImageButton url="images/main/logo.png" preload="true" effect="alpha" x="50" y="40" touchMode="true">
-	</ImageButton>
-	<ImageButton id="imageBt" x="50" y="970" url="images/main/home.png" preload="true" effect="alpha" touchMode="true">
+	<ImageButton url="images/main/logo.png" preload="true" effect="alpha" x="50" y="40" touchMode="true"></ImageButton>
+	<ImageButton id="imageBt1" x="50" y="970" url="images/main/home.png" preload="true" effect="alpha" touchMode="true">
 		<Click>
 			<NavigationEvent controllerId="mainNav" showIdx="0" effect="flyIn" >
 				<onComplete>
 					<VideoEvent id="myvideo_00" action="play" />
-					<!--<VideoEvent id="myMp3_01" action="play" />-->
 				</onComplete>
 			</NavigationEvent>
 		</Click>
 	</ImageButton>
+	<ImageButton id="voice" class="active" x="150" y="970" url="images/main/voice.png" preload="true" effect="alpha" touchMode="true"></ImageButton>
 	<VideoCanvas id="myMp3_01" src="media/type.mp3" autoplay="false" preload="true"></VideoCanvas>
+	<VideoCanvas id="myMp3_bg" src="media/bea.mp3" autoplay="false" preload="true" loop="true" ></VideoCanvas>
+	<Events id="playClickSound">
+		<VideoEvent id="myMp3_01" action="stop" />
+		<VideoEvent id="myMp3_01" action="play" />
+	</Events>
+	<Events id="playBgSound">
+		<VideoEvent id="myMp3_bg" action="stop" />
+		<VideoEvent id="myMp3_bg" action="play" />
+	</Events>
+	<HtmlCanvas>
+
+		<div class="content_voice"  style="display:none">
+			<div style="height: 20px;width: 200px;left:222px;top:1008px;position:absolute;">
+				<div class="zui slider"></div>
+			</div>
+		</div>
+
+	</HtmlCanvas>
 
 </BasicCanvas>

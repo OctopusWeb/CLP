@@ -40,5 +40,7 @@
 		
 		<link rel="stylesheet" href="assets/system/css/styleBlack.css" type="text/css" />
 		<script src="assets/system/style.js" />
+				
+		<script src="assets/app/js/Init.js" />
 	</import>
 </root>

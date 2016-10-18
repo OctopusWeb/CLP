@@ -1,5 +1,4 @@
-(function(){
-	const electron = require('electron');
+const electron = require('electron');
 	$(window).keyup(function(e){
 		switch(e.keyCode)
 		{
@@ -16,4 +15,3 @@
 	}
 	
 	fullScreen();
-})();
