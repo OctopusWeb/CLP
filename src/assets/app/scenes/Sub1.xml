@@ -3,7 +3,8 @@
 <BasicCanvas width="100%" height="100%" background="#dcdddd" fontSize="50" >
 		<HtmlCanvas width="1920" height="1080">
 			<style>
-						
+				#subPage2{width:1800px;overflow-x:hidden}
+				
 				.public{
 					margin-top:50px;
 					margin-left: 50px;
@@ -12,7 +13,7 @@
 				.main{
 					overflow-y: auto;
 			    	overflow-x: hidden;			   
-			    	height:900px;
+			    	height:800px;
 				}
 				#head{		
 					margin-top: 119px;
