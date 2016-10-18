@@ -93,6 +93,13 @@ Alert.init = function()
 		})
 		
 	}
+	function subBack(){
+		$("#subPage1 #title2").html("");
+		$("#subPage1 .bannerBox ul").html("");
+		$("#subPage1 .bannerBox ul").width(0);
+		$("#subPage1 #subContentLeft").html("");
+		$("#subPage1 #subContentRight").html("");
+	}
 	
 	
 	function subPage2(json){
@@ -198,6 +205,7 @@ Alert.init = function()
 	}
 	function backEvent(page){
 		remove = true;
+		subBack()
 		$(".closeBtn").off("click");
 		$(".nextBtn1").off("click");
 		$(".preBtn1").off("click");
