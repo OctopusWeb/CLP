@@ -11,7 +11,7 @@
 				#subPage1 #subBanner ul{width:9999px;height:330px;position:absolute;background:#222;}
 				#subPage1 #subBanner ul li{width:420px;height:320px;float:left;list-style:none;margin-left:8px;background:#dddddd;overflow:hidden;}
 				#subPage1 #subBanner ul li h1{line-height:40px;font-size:18px;width:420px;padding-left:10px;
-				color:#454544;background:#222;white-space:nowrap; text-overflow:ellipsis; -o-text-overflow:ellipsis; overflow:hidden;}
+				color:white;background:#222;white-space:nowrap; text-overflow:ellipsis; -o-text-overflow:ellipsis; overflow:hidden;}
 				#subPage1 #subBanner ul li img{width:420px;height:271px;float:left;border-top:7px #eb9300 solid;}
 				#subPage1  .bannnerBtn{position:absolute;top:330px;}
 				#subPage1  .preBtn{left:50px}

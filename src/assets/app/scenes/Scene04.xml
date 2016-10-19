@@ -32,5 +32,15 @@
 			</NavigationEvent>
 		</click>
 	</ImageButton>
+	
+		<ImageButton id="imageBt" x="1300" y="480" url="images/pic4/04.png" preload="true" effect="alpha" touchMode="true">
+		<click>
+			<NavigationEvent controllerId="mainNav" showIdx="10" effect="flyOut">
+				<onComplete>
+					<Alert json="B-4-4"/>
+				</onComplete>
+			</NavigationEvent>
+		</click>
+	</ImageButton>
 
 </BasicCanvas>
