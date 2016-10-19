@@ -83,6 +83,7 @@
 				}
 				
 				.bk{width:1920px;height:1080px;background:rgba(0,0,0,0);z-index:100;position:absolute;top:0;display:none}
+				.bk1{width:200px;height:200px;background:rgba(0,0,0,0);z-index:100;position:absolute;top:800px;left:900px;display:block}
 				.demo{height:1080px;width:1920px;background:rgba(0,0,0,0.2);position:fixed;display:block}
 				.loader{left:-40px}
 			</style>
@@ -153,6 +154,7 @@
 			                    frameTime = frame1;
 			                    canvasClip.gotoAndStop(frame1);
 		                	}else if(bol == "B"){
+		                		$(".bk1").css({"left":"700px"})
 		                		if(frameTime==0) frameTime =90;
 		                		frameTime+=2;
 		                		if(frameTime >= movePages+90){
@@ -164,6 +166,7 @@
 		                		
 		                		canvasClip.gotoAndStop(frameTime)
 		                	}else if(bol == "C"){
+		                		$(".bk1").css({"left":"900px"})
 		                		frameTime-=2;
 		                		if(frameTime <= 90){
 		                			$(".bk").hide()
@@ -257,6 +260,7 @@
 			        </div>
 			    </div>
 				<div class = "bk"></div>
+				<div class = "bk1"></div>
 			</div>
 		</HtmlCanvas>
 </BasicCanvas>
