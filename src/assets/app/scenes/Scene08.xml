@@ -10,7 +10,7 @@
 	
 	<ImageButton id="imageBt" x="1174" y="321" url="images/pic8/01.png" preload="true" effect="alpha" touchMode="true">
 		<click>
-			<NavigationEvent controllerId="mainNav" showIdx="10" effect="flyOut">
+			<NavigationEvent controllerId="mainNav" showIdx="10" effect="flyOut" needBack="true" json="B-8-1">
 				<onComplete>
 					<Alert json="B-8-1"/>
 				</onComplete>
@@ -19,7 +19,7 @@
 	</ImageButton>
 	<ImageButton id="imageBt" x="477" y="183" url="images/pic8/02.png" preload="true" effect="alpha" touchMode="true">
  		<click>
-			<NavigationEvent controllerId="mainNav" showIdx="10" effect="flyOut">
+			<NavigationEvent controllerId="mainNav" showIdx="10" effect="flyOut" needBack="true" json="B-8-2">
 				<onComplete>
 					<Alert json="B-8-2"/>
 				</onComplete>

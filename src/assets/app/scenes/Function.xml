@@ -3,9 +3,10 @@
 	<ImageButton url="images/main/logo.png" preload="true" effect="alpha" x="50" y="40" touchMode="true"></ImageButton>
 	<ImageButton id="imageBt1" x="50" y="970" url="images/main/home.png" preload="true" effect="alpha" touchMode="true">
 		<Click>
-			<NavigationEvent controllerId="mainNav" showIdx="0" effect="flyIn" >
+			<NavigationEvent controllerId="mainNav" showIdx="0" effect="flyIn">
 				<onComplete>
 					<VideoEvent id="myvideo_00" action="play" />
+					<Alert msg="home"></Alert>
 				</onComplete>
 			</NavigationEvent>
 		</Click>
