@@ -15,53 +15,84 @@ ZML.Slider = function(option)
 	this.dragger = $("<div class='dragger'><div class='box'></div></div>");
 	this.dragger.appendTo(this.overBar);
 	
-	this.bar.click(function(e){
-		var eventX = e.clientX - $(this).offset().left;
+	this.bar.on("click touchend",function(e){
+		var eventX = (function(type){
+			switch(type)
+			{
+				case "click":
+					return e.clientX - self.bar.offset().left;
+				break;
+				case "touchend":
+					return e.originalEvent.changedTouches[0].clientX - self.bar.offset().left;
+				break;
+			}
+		})(e.type);
 		var value = self.getValueByDraggerLeft(eventX);
 		self.setValue(value);
 		
 		self.view.trigger(ZML.Slider.CHANGE);
 	})
 	
-	this.dragger.mousedown(function(e){
-		var mouseFirst = e.pageX;
+	this.dragger.on("mousedown touchstart",function(e){
+		e.preventDefault();
+		var mouseFirst = (function(type){
+			switch(type)
+			{
+				case "mousedown":
+					return e.pageX;
+				break;
+				case "touchstart":
+					return e.originalEvent.changedTouches[0].screenX;
+				break;
+			}
+		})(e.type);
 		var draggerLeft = parseInt(self.dragger.css("left"));
 		
 		var moved = false;
 		
-		$(document).on("mousemove",moveHandler);
-		$(document).on("mouseup",upHandler);
+		$(document).on("mousemove touchmove",moveHandler);
+		$(document).on("mouseup touchend",upHandler);
 		
 		function moveHandler(ev)
 		{
 			ev.preventDefault();
 			moved = true;
-			var mouseSecont = ev.pageX;
+			var mouseSecont = (function(type){
+				switch(type)
+				{
+					case "mousemove":
+						return ev.pageX;
+					break;
+					case "touchmove":
+						return ev.originalEvent.changedTouches[0].screenX;
+					break;
+				}
+			})(ev.type);
 			var eventX = draggerLeft+mouseSecont-mouseFirst;
-			
-			var minX = 0;
-			var maxX = self.bar.outerWidth();
-			
-			eventX = eventX < minX ? minX : eventX;
-			eventX = eventX > maxX ? maxX : eventX;
 			
 			var value = self.getValueByDraggerLeft(eventX);
 			self.setValue(value);
 			
-			self.view.trigger(ZML.Slider.UPDATE);
+			self.view.trigger(ZUI.Slider.UPDATE);
 		}
 		
 		function upHandler()
 		{
-			$(document).off("mousemove",moveHandler);
-			$(document).off("mouseup",upHandler);
+			$(document).off("mousemove touchmove",moveHandler);
+			$(document).off("mouseup touchend",upHandler);
 			
-			if(moved)self.view.trigger(ZML.Slider.CHANGE);
+			if(moved)self.view.trigger(ZUI.Slider.CHANGE);
 		}
 	});
 	
 	this.getValueByDraggerLeft = function(tx)
 	{
+		var minX = 0;
+		var maxX = this.bar.outerWidth();
+			
+		tx = tx < minX ? minX : tx;
+		tx = tx > maxX ? maxX : tx;
+			
 		var per = tx / self.bar.outerWidth();
 		var value = self.min + (self.max - self.min)*per;
 		value = value.toFixed(2);

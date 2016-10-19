@@ -45,8 +45,8 @@
 				    border-right: 40px solid transparent;
 				}
 				#explain{
-					width:1600px;
-					max-height:300px;
+					width:1650px;
+	
 				}
 		
 				#cont{
