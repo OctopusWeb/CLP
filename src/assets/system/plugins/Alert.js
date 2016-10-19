@@ -28,14 +28,13 @@ Alert.init = function()
 			}
 			else if($(data).attr("json")!=undefined)
 			{
+				var closeBtn = $(".closeBtn");
 				var data = $(data).attr("json");
 				var datatype = data.substring(0,1);
-				var parentPage = data.substring(2,data.length)
+				var parentPage = data.substring(2,data.length);
 				parentPage = parentPage.substring(0,parentPage.indexOf("-"));
-				$("#subPage1 .closeBtn").attr('id',parentPage);
-				$("#subPage2 .closeBtn").attr('id',parentPage);
-				$("#subPage3 .closeBtn").attr('id',parentPage);
-				$(".closeBtn").on("click",function(){
+				closeBtn.attr('id',parentPage);
+				closeBtn.on("click",function(){
 					var str = "<events><Events src=\"playClickSound\" /></events>";				
 					ZML.BroadcastCenter.sendEvent(str);
 					
@@ -68,7 +67,7 @@ Alert.init = function()
 		var contentImg =  json[0].contentImg
 		var indexImg="";
 		var indexContent="";
-		var indexcontentImg = ""
+		var indexcontentImg = "";
 		for(var i=0;i<img.length;i++){
 			indexImg+="<li class='"+img[i].pageData+"'><h1>"+img[i].imgH+"</h1><img src="+img[i].imgURL+"></img></li>"
 		}
@@ -90,6 +89,7 @@ Alert.init = function()
 			page == "B"?page = 10:page=11;
 			bindEvent(page,data);
 		})
+		TweenLite.to($("#subPage1"), 1, {opacity:1});
 		
 	}
 	function subBack(){
@@ -201,6 +201,7 @@ Alert.init = function()
 		ZML.BroadcastCenter.sendEvent(event);	
 	}
 	function backEvent(page){
+		$("#subPage1").css({opacity:0})
 		remove = true;
 		subBack()
 		$(".closeBtn").off("click");
