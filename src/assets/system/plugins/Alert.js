@@ -125,7 +125,7 @@ Alert.init = function()
 			$("#form").hide();
 		}
 	
-		$("#bind").click(function(){
+		$("#bind,#click").click(function(){
 			var data = $(this).attr("class");
 			var page = $(this).attr("class").substring(0,1);
 			page == "B"?page = 10:page=11;
