@@ -6,7 +6,7 @@
 	</VideoCanvas>
 	<ImageButton id="imageBt" x="1248" y="360" url="images/pic4/01.png" preload="true" effect="alpha" touchMode="true">
 		<click>
-			<NavigationEvent controllerId="mainNav" showIdx="10" effect="flyOut">
+			<NavigationEvent controllerId="mainNav" showIdx="10" effect="flyOut" needBack="true" json="B-4-1">
 				<onComplete>
 					<Alert json="B-4-1"/>
 				</onComplete>
@@ -15,7 +15,7 @@
 	</ImageButton>
 	<ImageButton id="imageBt" x="333" y="497" url="images/pic4/02.png" preload="true" effect="alpha" touchMode="true">
 		<click>
-			<NavigationEvent controllerId="mainNav" showIdx="10" effect="flyOut">
+			<NavigationEvent controllerId="mainNav" showIdx="10" effect="flyOut" needBack="true" json="B-4-2">
 				<onComplete>
 					<Alert json="B-4-2"/>
 				</onComplete>
@@ -25,7 +25,7 @@
 
 	<ImageButton id="imageBt" x="1024" y="410" url="images/pic4/03.png" preload="true" effect="alpha" touchMode="true">
 		<click>
-			<NavigationEvent controllerId="mainNav" showIdx="10" effect="flyOut">
+			<NavigationEvent controllerId="mainNav" showIdx="10" effect="flyOut" needBack="true" json="B-4-3">
 				<onComplete>
 					<Alert json="B-4-3"/>
 				</onComplete>
