@@ -8,8 +8,8 @@
 				#subPage2 #subTitel{height:50px;background:#000;float:left;width:100%;margin-top:100px;color:#fff}
 				#mc{margin-left:300px;display:none}
 				.bannnerBtn{position:absolute;top:850px;}
-				.preBtn{left:950px}
-				.nextBtn{right:950px}
+				.preBtnCar{left:950px}
+				.nextBtnCar{right:950px}
 				#nav >#title3
 				{
 					float:left;
@@ -213,13 +213,13 @@
 		                    }
 		                });
 		                var interval;
-		                $(".nextBtn").on("click", function (e) {
+		                $(".nextBtnCar").on("click", function (e) {
 		                	$(".bk").show();
                     		cf = 0;
                     		tf = 0;
                     		bol = "B";
 		                });
-		                $(".preBtn").on("click", function (e) {
+		                $(".preBtnCar").on("click", function (e) {
 		               	 	$(".bk").show();
                     		cf = 0;
                     		tf = 0;
@@ -250,8 +250,8 @@
 						<div id="shape"></div>
 					</div>
 				</div>
-				<img src="assets/app/images/main/nextBtn2.png" class="bannnerBtn preBtn" style='display:none'></img>
-				<img src="assets/app/images/main/preBtn2.png" class="bannnerBtn nextBtn" style='display:none'></img>
+				<img src="assets/app/images/main/nextBtn2.png" class="bannnerBtn preBtnCar" style='display:none'></img>
+				<img src="assets/app/images/main/preBtn2.png" class="bannnerBtn nextBtnCar" style='display:none'></img>
 				<div id="view360">
 			        <div id="container">
 			            <div class="center">

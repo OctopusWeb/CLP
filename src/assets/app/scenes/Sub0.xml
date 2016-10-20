@@ -7,7 +7,7 @@
 				#subPage1{width:1820px;float:left;opacity:0}
 				#subPage1 #subBanner{height:330px;float:left;width:1720px;margin-top:40px;
 				margin-left:50px;position:relative;overflow:hidden;}
-				#subPage1 #subBanner .bannerBox{width:100%;float:left;height:330px;}
+				#subPage1 #subBanner .bannerBox_1{width:100%;float:left;height:330px;}
 				#subPage1 #subBanner ul{width:9999px;height:330px;position:absolute;background:#222;}
 				#subPage1 #subBanner ul li{width:420px;height:320px;float:left;list-style:none;margin-left:8px;background:#dddddd;overflow:hidden;}
 				#subPage1 #subBanner ul li h1{line-height:40px;font-size:18px;width:420px;padding-left:10px;
@@ -23,7 +23,7 @@
 				#subPage1 #subContentLeft h2{width:100%;float:left;font-size:18px;line-height:30px;margin-top:15px;font-weight:400}
 				#subPage1 #subContentLeft p{width:100%;float:left;font-size:18px;line-height:25px;margin-top:15px;font-weight:400;color:#454544}
 				#subPage1 #subContentRight{height:450px;float:left;width:50%;float:left;overflow:auto;}
-				#subPage1 #subContentRight img{width:650px;float:left;margin-left:100px}
+				#subPage1 #subContentRight img{width:750px;float:left;margin-left:50px}
 				#subPage1 #subContentRight h1{width:100%;float:left;text-align: center;font-size:18px;font-weight:400}
 				#nav >#title2
 				{
@@ -56,18 +56,18 @@
 						
 						self.pre = function(){
 							bannerNum++
-							bannerNum == $(".bannerBox ul li").length-3 ? bannerNum = 0: bannerNum = bannerNum;
+							bannerNum == $(".bannerBox_1 ul li").length-3 ? bannerNum = 0: bannerNum = bannerNum;
 							var leftLen = -428*bannerNum + "px"
-							$(".bannerBox ul").animate({left:leftLen});
+							$(".bannerBox_1 ul").animate({left:leftLen});
 						}
 						self.next = function(){
 							bannerNum--
-							bannerNum == 0 ? bannerNum = $(".bannerBox ul li").length-3: bannerNum = bannerNum;
+							bannerNum == 0 ? bannerNum = $(".bannerBox_1 ul li").length-3: bannerNum = bannerNum;
 							var leftLen = -428*bannerNum + "px"
-							$(".bannerBox ul").animate({left:leftLen});
+							$(".bannerBox_1 ul").animate({left:leftLen});
 						}
 						self.removeFirst = function(num){
-							$(".bannerBox ul").animate({left:0});
+							$(".bannerBox_1 ul").animate({left:0});
 						}
 
 					}
@@ -86,7 +86,7 @@
 					</div>
 				</div>
 				<div id="subBanner">
-					<div class="bannerBox">
+					<div class="bannerBox_1">
 						<ul>
 							<li>
 								<h1>SUMMARY OF SATCOM</h1>
@@ -125,8 +125,9 @@
 						<h2>SUMMARY OF SATCOM</h2>
 					</div>
 					<div id="subContentRight">
-						<img src=""></img>
+						
 						<h1>SUMMARY OF SATCOM</h1>
+						<img src=""></img>
 					</div>
 				</div>
 			</div>

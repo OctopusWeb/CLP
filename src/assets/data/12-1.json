@@ -21,13 +21,13 @@
         ],
         "img":[
         		{
-        			"imgH":"Man-pack Remote Video Terminal",
-        			"imgURL":"assets/app/images/pic9/9-4-1.png",
+        			"imgH":"CT300-E UAV TT&C and Information Transmission System",
+        			"imgURL":"assets/app/images/pic12/12-2-1.png",
         			"pageData":"B-12-01"
         		},
         		{
         			"imgH":"CT/SADT01 Series UAV-borne Satellite Information Transmission System",
-        			"imgURL":"assets/app/images/pic9/9-4-11.png",
+        			"imgURL":"assets/app/images/pic12/12-2.png",
         			"pageData":"B-12-02"
         		},
         		{
@@ -37,10 +37,7 @@
         		}
         ],
         "contentImg":[
-        		{
-        			"imgH":"",
-        			"imgURL":"assets/app/images/pic9/9-41.png"
-        		}
+        		
         	]
 
     }

@@ -5,7 +5,7 @@
 		src="media/05.webm" preload="true" loop="true">
 	</VideoCanvas>
 
-	<ImageButton id="imageBt" x="954" y="436" url="images/pic5/01.png" preload="true" effect="alpha">
+	<ImageButton id="imageBt" x="900" y="436" url="images/pic5/01.png" preload="true" effect="alpha">
 		<click>
 			<NavigationEvent controllerId="mainNav" showIdx="10" effect="flyOut" needBack="true" json="B-5-1">
 				<onComplete>
@@ -34,7 +34,7 @@
 			</NavigationEvent>
 		</click>
 	</ImageButton>
-	<ImageButton id="imageBt" x="602" y="546" url="images/pic5/04.png" preload="true" effect="alpha">
+	<ImageButton id="imageBt" x="622" y="546" url="images/pic5/04.png" preload="true" effect="alpha">
 		<click>
 			<NavigationEvent controllerId="mainNav" showIdx="10" effect="flyOut" needBack="true" json="B-5-4">
 				<onComplete>
@@ -47,7 +47,7 @@
 	
 		<ImageButton id="imageBt" x="200" y="605" url="images/pic5/05.png" preload="true" effect="alpha">
 		<click>
-			<NavigationEvent controllerId="mainNav" showIdx="10" effect="flyOut">
+			<NavigationEvent controllerId="mainNav" showIdx="10" effect="flyOut" needBack="true" json="B-5-4">
 				<onComplete>
 					<Alert json="B-5-5"/>
 				</onComplete>

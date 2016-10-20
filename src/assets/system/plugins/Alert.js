@@ -77,19 +77,34 @@ ZML.Alert = (function(){
 		for(var i=0;i<img.length;i++){
 			indexImg+="<li class='"+img[i].pageData+"'><h1>"+img[i].imgH+"</h1><img src="+img[i].imgURL+"></img></li>"
 		}
+		
 		$("#subPage1 #subBanner ul").width(img.length*430);
-		$("#subPage1 .bannerBox ul").html(indexImg)
+		if(img.length <=4){
+			$("#subPage1 #subBanner ul").css("marginLeft",(1700- img.length*430)/2);
+		}else{
+			$("#subPage1 #subBanner ul").css("marginLeft",0);
+		}
+		
+		$("#subPage1 .bannerBox_1 ul").html(indexImg)
 		for(var i=0;i<content.length;i++){
 			indexContent+="<h1>"+content[i].contentH+"</h1>";
 			indexContent+="<p>"+content[i].contentP+"</p>";
 		}
 		$("#subPage1 #subContentLeft").html(indexContent);
-		for(var i=0;i<contentImg.length;i++){
-			indexcontentImg+="<img src="+contentImg[i].imgURL+"></img>"
+		
+		if(contentImg.length == 0){
+			$("#subContentLeft").css('width','100%');
+		}else{
+			$("#subContentLeft").css('width','50%');
+			for(var i=0;i<contentImg.length;i++){
 			indexcontentImg+="<h1>"+contentImg[i].imgH+"</h1>";
+			indexcontentImg+="<img src="+contentImg[i].imgURL+"></img>"
+			
 		}
 		$("#subPage1 #subContentRight").html(indexcontentImg);
-		$(".bannerBox ul li").click(function(){
+		}
+		
+		$(".bannerBox_1 ul li").click(function(){
 			var data = $(this).attr("class");
 			var page = $(this).attr("class").substring(0,1);
 			page == "B"?page = 10:page=11;
@@ -100,8 +115,8 @@ ZML.Alert = (function(){
 	}
 	function subBack(){
 		$("#subPage1 #title2").html("");
-		$("#subPage1 .bannerBox ul").html("");
-		$("#subPage1 .bannerBox ul").width(0);
+		$("#subPage1 .bannerBox_1 ul").html("");
+		$("#subPage1 .bannerBox_1 ul").width(0);
 		$("#subPage1 #subContentLeft").html("");
 		$("#subPage1 #subContentRight").html("");
 	}
@@ -151,11 +166,11 @@ ZML.Alert = (function(){
 		var url = json[0].url;
 		var count = json[0].count;
 		if(count == 0){
-			$(".preBtn").hide();
-			$(".nextBtn").hide();
+			$(".preBtnCar").hide();
+			$(".nextBtnCar").hide();
 		}else{
-			$(".preBtn").show();
-			$(".nextBtn").show();
+			$(".preBtnCar").show();
+			$(".nextBtnCar").show();
 		}
 		addImg(sum,url,count);
 	}
@@ -181,14 +196,7 @@ ZML.Alert = (function(){
 			}
 		}
 		
-		
-		$(".closeBtn").on("click",function(){
-			$(".main_1").each(function(){
-				$(this).removeClass("active");
-			})
-			var page = 3;
-			backEvent(page)
-		})
+
 		$(".preBtn1").on("click",function(){
 			index--;
 			index==-1 ? index = 2:index = index;
@@ -209,7 +217,6 @@ ZML.Alert = (function(){
 		$("#subPage1").css({opacity:0})
 		remove = true;
 		subBack()
-		//$(".closeBtn").off("click");
 		$(".nextBtn1").off("click");
 		$(".preBtn1").off("click");
 		BackManager.back();

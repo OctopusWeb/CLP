@@ -73,7 +73,7 @@ ZML.Slider = function(option)
 			var value = self.getValueByDraggerLeft(eventX);
 			self.setValue(value);
 			
-			self.view.trigger(ZUI.Slider.UPDATE);
+			self.view.trigger(ZML.Slider.UPDATE);
 		}
 		
 		function upHandler()
@@ -81,7 +81,7 @@ ZML.Slider = function(option)
 			$(document).off("mousemove touchmove",moveHandler);
 			$(document).off("mouseup touchend",upHandler);
 			
-			if(moved)self.view.trigger(ZUI.Slider.CHANGE);
+			if(moved)self.view.trigger(ZML.Slider.CHANGE);
 		}
 	});
 	

@@ -15,7 +15,7 @@
 		</click>		
 	</ImageButton>
 	
-	<ImageButton id="imageBt" x="944" y="339" url="images/pic2/02.png" preload="true" effect="alpha" touchMode="true">
+	<ImageButton id="imageBt" x="1000" y="212" url="images/pic2/02.png" preload="true" effect="alpha" touchMode="true">
 		<click>
 			<NavigationEvent controllerId="mainNav" showIdx="10" effect="flyOut" needBack="true" json="B-2-2">
 				<onComplete>
@@ -25,7 +25,7 @@
 		</click>		
 	</ImageButton>
 
-	<ImageButton id="imageBt" x="343" y="716" url="images/pic2/03.png" preload="true" effect="alpha" touchMode="true">
+	<ImageButton id="imageBt" x="400" y="716" url="images/pic2/03.png" preload="true" effect="alpha" touchMode="true">
 		<click>
 			<NavigationEvent controllerId="mainNav" showIdx="10" effect="flyOut" needBack="true" json="B-2-3">
 				<onComplete>
@@ -35,7 +35,7 @@
 		</click>	
 	</ImageButton>
 	
-		<ImageButton id="imageBt" x="1435" y="635" url="images/pic2/04.png" preload="true" effect="alpha" touchMode="true"> 
+		<ImageButton id="imageBt" x="1635" y="560" url="images/pic2/04.png" preload="true" effect="alpha" touchMode="true"> 
 		<click>
 			<NavigationEvent controllerId="mainNav" showIdx="10" effect="flyOut" needBack="true" json="B-2-4">
 				<onComplete>
@@ -44,7 +44,7 @@
 			</NavigationEvent>
 		</click>	
 	</ImageButton>
-	<ImageButton id="imageBt" x="1390" y="319" url="images/pic2/05.png" preload="true" effect="alpha" touchMode="true">
+	<ImageButton id="imageBt" x="920" y="320" url="images/pic2/05.png" preload="true" effect="alpha" touchMode="true">
 		<click>
 			<NavigationEvent controllerId="mainNav" showIdx="10" effect="flyOut" needBack="true" json="B-2-5">
 				<onComplete>

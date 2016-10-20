@@ -16,7 +16,7 @@
 		</Click>
 	</ImageButton>
 
-	<ImageButton url="images/main/main2.png" preload="true" effect="alpha" touchMode="true" x="363" y="677" >
+	<ImageButton url="images/main/main2.png" preload="true" effect="alpha" touchMode="true" x="420" y="650" >
 		<Click>
 			<NavigationEvent controllerId="mainNav" showIdx="4" effect="flyOut" needBack="true" >
 				<onComplete>
@@ -33,7 +33,7 @@
 				</onComplete>
 			</NavigationEvent>
 	</ImageButton>
-	<ImageButton url="images/main/main4.png" preload="true" effect="alpha" touchMode="true" x="1094" y="190" >
+	<ImageButton url="images/main/main4.png" preload="true" effect="alpha" touchMode="true" x="990" y="190" >
 		<Click>
 			<NavigationEvent controllerId="mainNav" showIdx="8" effect="flyOut" needBack="true" >
 				<onComplete>
@@ -42,7 +42,7 @@
 			</NavigationEvent>
 		</Click>
 	</ImageButton>
-	<ImageButton url="images/main/main5.png" preload="true" effect="alpha" touchMode="true" x="1109" y="480" >
+	<ImageButton url="images/main/main5.png" preload="true" effect="alpha" touchMode="true" x="1300" y="680" >
 		<Click>
 			<NavigationEvent controllerId="mainNav" showIdx="3" effect="flyOut" needBack="true" >
 				<onComplete>
@@ -51,7 +51,7 @@
 			</NavigationEvent>
 		</Click>
 	</ImageButton>
-	<ImageButton url="images/main/main6.png" preload="true" effect="alpha" touchMode="true" x="1094" y="953" >
+	<ImageButton url="images/main/main6.png" preload="true" effect="alpha" touchMode="true" x="1194" y="953" >
 		<Click>
 			<NavigationEvent controllerId="mainNav" showIdx="5" effect="flyOut" needBack="true" >
 				<onComplete>
@@ -60,7 +60,7 @@
 			</NavigationEvent>
 		</Click>
 	</ImageButton>
-	<ImageButton url="images/main/main7.png" preload="true" effect="alpha" touchMode="true" x="1437" y="639" >
+	<ImageButton url="images/main/main7.png" preload="true" effect="alpha" touchMode="true" x="1320" y="800" >
 		<Click>
 			<NavigationEvent controllerId="mainNav" showIdx="6" effect="flyOut" needBack="true" >
 				<onComplete>
@@ -69,7 +69,7 @@
 			</NavigationEvent>
 		</Click>
 	</ImageButton>
-	<ImageButton url="images/main/main8.png" preload="true" effect="alpha" touchMode="true" x="1578" y="452" >
+	<ImageButton url="images/main/main8.png" preload="true" effect="alpha" touchMode="true" x="1300" y="450" >
 		<Click>
 			<NavigationEvent controllerId="mainNav" showIdx="2" effect="flyOut" needBack="true" >
 				<onComplete>
@@ -79,7 +79,7 @@
 		</Click>
 	</ImageButton>
 
-	<ImageButton url="images/main/sub1.png" preload="true" effect="alpha" touchMode="true" x="1510" y="40" id="subNav">
+	<ImageButton url="images/main/sub1.png" preload="true" effect="alpha" touchMode="true" x="1510" y="40">
 		
 	</ImageButton>
 	<ImageButton url="images/main/sub2.png" preload="true" effect="alpha" touchMode="true" x="1510" y="87" >

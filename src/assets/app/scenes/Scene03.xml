@@ -31,7 +31,7 @@
 
 	<ImageButton id="imageBt" x="1061" y="420" url="images/pic3/04.png" preload="true" effect="alpha" touchMode="true" > 
 		<click>
-			<NavigationEvent controllerId="mainNav" showIdx="10" effect="flyOut" needBack="true" json="B-3-3">
+			<NavigationEvent controllerId="mainNav" showIdx="10" effect="flyOut" needBack="true" json="B-3-4">
 				<onComplete>
 					<Alert json="B-3-4"/>
 				</onComplete>
@@ -40,9 +40,9 @@
 
 	</ImageButton>
 	
-	<ImageButton id="imageBt" x="347" y="555" url="images/pic3/05.png" preload="true" effect="alpha" touchMode="true">
+	<ImageButton id="imageBt" x="280" y="478" url="images/pic3/05.png" preload="true" effect="alpha" touchMode="true">
 		<click>
-			<NavigationEvent controllerId="mainNav" showIdx="10" effect="flyOut" needBack="true" json="B-3-4">
+			<NavigationEvent controllerId="mainNav" showIdx="10" effect="flyOut" needBack="true" json="B-3-5">
 				<onComplete>
 					<Alert json="B-3-5"/>
 				</onComplete>
@@ -50,9 +50,9 @@
 		</click>
 	</ImageButton>
 	
-	<ImageButton id="imageBt" x="230" y="684" url="images/pic3/06.png" preload="true" effect="alpha" touchMode="true">
+	<ImageButton id="imageBt" x="230" y="780" url="images/pic3/06.png" preload="true" effect="alpha" touchMode="true">
 		<click>
-			<NavigationEvent controllerId="mainNav" showIdx="10" effect="flyOut" needBack="true" json="B-3-5">
+			<NavigationEvent controllerId="mainNav" showIdx="10" effect="flyOut" needBack="true" json="B-3-6">
 				<onComplete>
 					<Alert json="B-3-6"/>
 				</onComplete>
@@ -60,9 +60,9 @@
 		<click>
 	</ImageButton>
 	
-	<ImageButton id="imageBt" x="416" y="638" url="images/pic3/07.png" preload="true" effect="alpha" touchMode="true">
+	<ImageButton id="imageBt" x="174px" y="580" url="images/pic3/07.png" preload="true" effect="alpha" touchMode="true">
 		<click>
-			<NavigationEvent controllerId="mainNav" showIdx="10" effect="flyOut" needBack="true" json="B-3-6">
+			<NavigationEvent controllerId="mainNav" showIdx="10" effect="flyOut" needBack="true" json="B-3-7">
 				<onComplete>
 					<Alert json="B-3-7"/>
 				</onComplete>
@@ -70,9 +70,9 @@
 		</click>
 	</ImageButton>
 	
-	<ImageButton id="imageBt" x="997" y="980" url="images/pic3/08.png" preload="true" effect="alpha" touchMode="true">
+	<ImageButton id="imageBt" x="1050" y="980" url="images/pic3/08.png" preload="true" effect="alpha" touchMode="true">
 		<click>
-			<NavigationEvent controllerId="mainNav" showIdx="12" effect="flyOut" needBack="true" json="B-3-7">
+			<NavigationEvent controllerId="mainNav" showIdx="12" effect="flyOut" needBack="true" json="B-3-8">
 				<onComplete>
 					<Alert json="D-3-8"/>
 				</onComplete>
