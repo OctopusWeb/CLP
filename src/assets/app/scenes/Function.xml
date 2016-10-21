@@ -13,7 +13,7 @@
 	</ImageButton>
 	<ImageButton id="voice" class="active" x="150" y="970" url="images/main/voice.png" preload="true" effect="alpha" touchMode="true"></ImageButton>
 	<VideoCanvas id="myMp3_01" src="media/type.mp3" autoplay="false" preload="true"></VideoCanvas>
-	<VideoCanvas id="myMp3_bg" src="media/bea.mp3" autoplay="false" preload="true" loop="true" ></VideoCanvas>
+	<VideoCanvas id="myMp3_bg" src="media/evea.mp3" autoplay="false" preload="true" loop="true" ></VideoCanvas>
 	<Events id="playClickSound">
 		<VideoEvent id="myMp3_01" action="stop" />
 		<VideoEvent id="myMp3_01" action="play" />

@@ -5,7 +5,7 @@
         "explain":"Fixed satellite communication station is a satellite communication earth station and used in many fields such as satellite broadcasting, communication, satellite telemetry and telecontrol, etc.",
         "cont":"",
         "features":"<div id='function'><h3 id='funtion'>Features</h3><div class='annerBox'><ul><li>Service: voice, data and image</li><li>Large transmission capacity, multiple-channel high-rate carriers can be simultaneously transmitted</li><li>Multiple-service, large-capacity and high quality service transmission can be realized</li></ul></div></div>",
-        "form":"<table border='1'  cellspacing='0 'style='width:800px'><tbody><tr ><td colspan='2'>Specifications</td></tr><tr><td>Operation band</td><td>C / Ku / Ka</td></tr><tr><td>Antenna aperture</td><td>1.2m-2.4m, optional</td></tr><tr><td>PA power</td><td>1W ~ 1kW, optional</td></tr><tr><td>Data rate</td><td>64kbps~8Mbps</td></tr></tbody></table><div class='img' style='position: absolute;right: 150px;bottom: 50px;'><img style='width:800px' src='assets/app/images/pic9/9-1-3.png'></div>"
+        "form":"<table border='1'  cellspacing='0 'style='width:800px'><tbody><tr ><td colspan='2'>Specifications</td></tr><tr><td>Operation band</td><td>C / Ku / Ka</td></tr><tr><td>Antenna aperture</td><td>1.2m-2.4m, optional</td></tr><tr><td>PA power</td><td>1W ~ 1kW, optional</td></tr><tr><td>Data rate</td><td>64kbps~8Mbps</td></tr></tbody></table><img style='margin-top:20px;width:1710px' src='assets/app/images/pic9/9-1-3-1.png'/>"
             
     }
 ]
