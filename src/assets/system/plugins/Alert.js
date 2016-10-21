@@ -250,7 +250,6 @@ ZML.Alert = (function(){
 		backManager.add = function(item)
 		{
 			items.push(item);
-			console.log(JSON.stringify(items))
 		}
 		
 		backManager.back = function()
