@@ -15,7 +15,7 @@
 				    font-size:18px;
 				}
 
-    			.cont{width:6000px;margin-left:-2000px}
+    			.cont{width:6000px;margin-left:0px}
     			.main_1{
     				float:left;
     				width:1800px;

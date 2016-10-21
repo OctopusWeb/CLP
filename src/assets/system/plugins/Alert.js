@@ -181,6 +181,7 @@ ZML.Alert = (function(){
 	}
 	
 	function subPage4(json){
+		$(".cont").animate({"margin-left":0})
 		
 		var index =0;
 		var page =json[0].page;
@@ -250,7 +251,6 @@ ZML.Alert = (function(){
 		backManager.add = function(item)
 		{
 			items.push(item);
-			console.log(JSON.stringify(items))
 		}
 		
 		backManager.back = function()
