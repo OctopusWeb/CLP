@@ -181,6 +181,7 @@ ZML.Alert = (function(){
 	}
 	
 	function subPage4(json){
+		$(".cont").animate({"margin-left":0})
 		
 		var index =0;
 		var page =json[0].page;
