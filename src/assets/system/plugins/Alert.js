@@ -15,6 +15,11 @@ ZML.Alert = (function(){
 			if($(data).attr("msg")!=undefined)
 			{
 				if($(data).attr("msg") == "home"){
+					$("#subPage1").css({opacity:0})
+					remove = true;
+					subBack()
+					$(".nextBtn1").off("click");
+					$(".preBtn1").off("click");
 					BackManager.clear();
 				}else{
 					alert($(data).attr("msg"));
@@ -245,6 +250,7 @@ ZML.Alert = (function(){
 		backManager.add = function(item)
 		{
 			items.push(item);
+			console.log(JSON.stringify(items))
 		}
 		
 		backManager.back = function()

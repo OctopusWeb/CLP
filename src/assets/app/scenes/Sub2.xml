@@ -179,6 +179,7 @@
 		                	setTimeout(function () {
 				                if(remove){
 				                	$(".demo").show();
+				                	$(".bk1").css({"left":"900px"})
 				                	$("#mc").hide();
 				            		return
 				            	}else{
