@@ -47,7 +47,7 @@
 	
 		<ImageButton id="imageBt" x="200" y="605" url="images/pic5/05.png" preload="true" effect="alpha">
 		<click>
-			<NavigationEvent controllerId="mainNav" showIdx="10" effect="flyOut" needBack="true" json="B-5-4">
+			<NavigationEvent controllerId="mainNav" showIdx="10" effect="flyOut" needBack="true" json="B-5-5">
 				<onComplete>
 					<Alert json="B-5-5"/>
 				</onComplete>

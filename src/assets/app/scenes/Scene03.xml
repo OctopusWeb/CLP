@@ -60,7 +60,7 @@
 		<click>
 	</ImageButton>
 	
-	<ImageButton id="imageBt" x="174px" y="580" url="images/pic3/07.png" preload="true" effect="alpha" touchMode="true">
+	<ImageButton id="imageBt" x="174" y="580" url="images/pic3/07.png" preload="true" effect="alpha" touchMode="true">
 		<click>
 			<NavigationEvent controllerId="mainNav" showIdx="10" effect="flyOut" needBack="true" json="B-3-7">
 				<onComplete>
