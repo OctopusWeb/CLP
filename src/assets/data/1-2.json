@@ -4,7 +4,7 @@
         "title": "Broadband SATCOM",
         "explain": "The broadband SATCOM mainly used in the operation department (e.g. headquarter, the services & arms) to provide large capacity trunk communication with the rate of 2～20Mbps.",
         "cont":"The broadband SATCOM is divided into the center station and regional station, the center station is fixed station and located in headquarter, the regional station is fixed station, large-scale vehicular station, etc. and located in military area command and military sub-command. The center station is configured with network management center which is responsible for managing network and satellite resource, a large-scale vehicular station or fixed station can be configured as backup station.",
-        "features":"",
+        "features":"<img style='height:540px;margin-left:150px' src='assets/app/images/pic1/1-2.png'>",
         "form":"",
         "imgUrl":""
           

@@ -5,7 +5,7 @@
         "explain": "ISTU-2011 Portable SATCOM equipment is a small-sized and light-weighted SATCOM terminal supporting manual and automatic alignment to the satellite. It is suitable for various FDMA portable stations. This terminal integrates network management agent function, and can accomplish remote service (e.g. video, voice, and data) transmission under the control of network management agent.",
         "cont":"",
         "features":"<div id='feaCont'><h3 id='features'>Features</h3><div class='annerBox'><ul><li>Supporting two channels of transmitting and receiving;</li><li>Providing network management channel and network management proxy; </li><li>Supporting networking;</li><li>Routing selection, TCP acceleration, QoS function; </li><li>Supporting synchronous encryption；</li><li>High integration, light weight, and easy carryover and operation;</li><li>Supporting  all IP service such as image, voice, etc.;</li><li>Equipped with 4G module and can be accessed to mobile public network.</li></ul></div></div>",
-        "form":"<div class='img' style='position: absolute;right: 280px;bottom: 150px;'><img style='width:500px' src='assets/app/images/pic4/pic4_1_1.jpg'></div>"
+        "form":"<div class='img' style='position: absolute;right: 150px;bottom: 150px;'><img style='width:900px' src='assets/app/images/pic4/pic4_1_1.jpg'></div>"
         
     }
 ]
