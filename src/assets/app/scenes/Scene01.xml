@@ -35,7 +35,7 @@
 		</Click>
 	</ImageButton>
 	
-	<ImageButton id="imageBt" x="1380" y="143" url="images/pic1/06.png" preload="true" effect="alpha" touchMode="true">
+	<ImageButton id="imageBt" x="1650" y="200" url="images/pic1/06.png" preload="true" effect="alpha" touchMode="true">
 		<Click>
 			<NavigationEvent controllerId="mainNav" showIdx="10" effect="flyOut" needBack="true" json="B-1-6">
 			<onComplete>
