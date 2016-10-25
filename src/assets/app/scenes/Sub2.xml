@@ -188,15 +188,24 @@
 		                    }, 1000 / 60);
 		                }
 		
-		                $(view360.find("#mc")).bind("touchstart", function (e) {
+		                $(view360.find("#mc")).bind("mousedown touchstart", function (e) {
 		                    e.preventDefault();
-		                    $(document).bind("touchmove", moveHandler);
-		                    $(document).bind("touchend", endHandler);
+		                    $(document).bind("mousemove touchmove", moveHandler);
+		                    $(document).bind("mouseup touchend", endHandler);
 		                    var ax;
 		
 		                    function moveHandler(e) {
-		                        var touch = e.originalEvent.touches[0];
-		                        var tx = touch.clientX;
+		                        var tx;
+		                        console.log(e.type)
+								switch(e.type)
+								{
+									case "mousemove":
+										tx = e.pageX
+									break;
+									case "touchmove":
+										tx = e.originalEvent.changedTouches[0].screenX
+									break;
+								}
 		                        if (ax == undefined) {
 		                            ax = tx;
 		                        }
@@ -209,8 +218,8 @@
 		
 		                    function endHandler(e) {
 		                        tf = cf;
-		                        $(document).unbind("touchmove", moveHandler);
-		                        $(document).unbind("touchend", endHandler);
+		                        $(document).unbind("mousemove touchmove", moveHandler);
+		                        $(document).unbind("mouseup touchend", endHandler);
 		                    }
 		                });
 		                var interval;
