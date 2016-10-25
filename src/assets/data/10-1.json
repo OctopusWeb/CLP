@@ -17,22 +17,23 @@
         ],
         "img":[
         		{
-        			"imgH":"Appearance of large-scale vehicle",
-        			"imgURL":"assets/app/images/pic9/9-2-1.png",
+        			"imgH":"Handset",
+        			"imgURL":"assets/app/images/pic9/9-2-2.png",
         			"pageData":"B-10-01"
         		},
         		{
-        			"imgH":"Appearance of Large-scale Vehicular Station",
-        			"imgURL":"assets/app/images/pic9/9-2-2.png",
+        			"imgH":"Vehicular Station",
+        			"imgURL":"assets/app/images/pic9/9-2-1.png",
+        			
         			"pageData":"B-10-02"
         		},
         		{
-        			"imgH":"Indoor Equipment",
+        			"imgH":"Shipborne-Terminal",
         			"imgURL":"assets/app/images/pic9/9-2-3.png",
         			"pageData":"B-10-03"
         		},
         		{
-        			"imgH":"UAV-borne  SATCOM equipment",
+        			"imgH":"Portable Terminal",
         			"imgURL":"assets/app/images/pic9/9-2-4.png",
         			"pageData":"B-10-04"
         		}
